@@ -53,77 +53,64 @@ header {
     border: 20px solid #ddd;
   }
   .row{
-    width: 85%;
+    width: 130%;
+    color:white; font-size: 25px; font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin: 0px 70px;
 }
-.form-group{
+/*row for the contact page, name row and email row*/
+.myRow{
+    width: 60%;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+/* .form-group, .contact-row{
     width: 40%;
-}
+} */
 form{
-    margin: 21px 33px;
+    margin: 10px 30px;
 }
 
 /*Container holding the image and the text*/
 
-
+#grid_container{
+background: palevioletred;
+}
 /*position of the text over the image*/
-.hangman_text {
-    position: absolute;
-    bottom: 40%;
-    left: 1%;
-    width: 28%;
-    background: teal;
-    color: white;
-    font-size: 20px;
-    text-align: center; 
+.hangman-game {
+    width: 200px;
+    height:130px;
+    color: #4aaaa5; 
 }
-.rpggame_text{
-    position: absolute;
-    bottom: 40%;
-    left: 30.5%;
-    width: 30%;
-    background: teal;
-    color: white;
-    font-size: 20px;
-    text-align: center; 
+.rpg-game{
+    width: 200px;
+    height:130px;
+    color: #4aaaa5; 
 }
-.trivia_text{
-    position: absolute;
-    bottom: 34%;
-    left: 64%;
-    width: 25%;
-    background: teal;
-    color: white;
-    font-size: 20px;
-    text-align: center; 
+.trivia-game{
+    width: 200px;
+    height:130px;
+    color: #4aaaa5; 
 }
-.widget_text{
-    position: absolute;
-    bottom: 2%;
-    left: 0%;
-    width: 30%;
-    background: teal;
-    color: white;
-    font-size: 20px;
-    text-align: center; 
+.widget-game{
+    width: 200px;
+    height:130px;
+    color: #4aaaa5; 
 }
-.rockpaperscissors_text{
-    position: absolute;
-    bottom: 2%;
-    left: 30.4%;
-    width: 30%;
-    background: teal;
-    color: white;
-    font-size: 18px;
-    text-align: center; 
+.rockpaperscissors-game{
+    width: 200px;
+    height:130px;
+    color: #4aaaa5; 
 }
 
-/*size of the submit button*/
+/*size of the submit button for form*/
 button{
     background: #4aaaa5;
     width: 20%;
     
 } 
-/* text area*/
+/* text area for forms*/
 #subject{
     width: 500px;
     height:200px;
@@ -138,7 +125,7 @@ button{
     height: 40%;
     z-index: 2;
 } 
-h1{
+h1, h3{
     color:#4aaaa5; font-size: 45px; font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     border-bottom: 2px gray double;
