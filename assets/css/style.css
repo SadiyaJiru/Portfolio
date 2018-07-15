@@ -53,10 +53,10 @@ header {
     border: 20px solid #ddd;
   }
   .row{
-    width: 130%;
+    width: 110%;
     color:white; font-size: 25px; font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    margin: 0px 70px;
+    margin: 5px 50px;
 }
 /*row for the contact page, name row and email row*/
 .myRow{
@@ -64,7 +64,6 @@ header {
     margin: 0px 0px;
     padding: 0px;
 }
-
 /* .form-group, .contact-row{
     width: 40%;
 } */
@@ -73,36 +72,25 @@ form{
 }
 
 /*Container holding the image and the text*/
-
 #grid_container{
-background: palevioletred;
 }
+
 /*position of the text over the image*/
-.hangman-game {
+.hangman-game, .rpg-game, .trivia-game, .widget-game, .rockpaperscissors-game{
     width: 200px;
-    height:130px;
+    height:130px;    
     color: #4aaaa5; 
+    z-index: 1;
+
 }
-.rpg-game{
+h3{
     width: 200px;
-    height:130px;
-    color: #4aaaa5; 
+    color: white;
+    background: teal;
+    z-index: -1;
+    
 }
-.trivia-game{
-    width: 200px;
-    height:130px;
-    color: #4aaaa5; 
-}
-.widget-game{
-    width: 200px;
-    height:130px;
-    color: #4aaaa5; 
-}
-.rockpaperscissors-game{
-    width: 200px;
-    height:130px;
-    color: #4aaaa5; 
-}
+
 
 /*size of the submit button for form*/
 button{
@@ -125,12 +113,13 @@ button{
     height: 40%;
     z-index: 2;
 } 
-h1, h3{
+h1{
     color:#4aaaa5; font-size: 45px; font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    border-bottom: 2px gray double;
-    margin: 0px 10px;
+    border-bottom: 2px rgb(49, 49, 49) double;
+    margin: 3px 10px;
 }
+
 p{
   font-size: 20px;  
   line-height: 1.6;
