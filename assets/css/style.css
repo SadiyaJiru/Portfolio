@@ -1,0 +1,150 @@
+ 
+body{
+    background-image: url("../images/Background/brushed.png");  
+    background-repeat: repeat;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #777777;
+}
+header {
+        position: fixed;
+        width: 100%;
+        color: #4aaaa5; /*not doing anything*/
+      }
+      
+/* Need to create my own cladd for this, changes color of my name and logo*/
+.navbar-light .navbar-brand {
+    color: white;
+}
+.myLogo{
+    float: left;
+    font-size: 65px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.Footer {
+    border-top: 10px teal solid;
+    position: fixed;
+    background-color: #504e4e;
+    color: white;
+    /* text-align: center; */
+    /* left: 4%; */
+    bottom: 0%;
+    width: 100%;
+    /* height: 4%; */
+    z-index: 1;
+}
+/*Gray Section*/
+#main-container{
+    width: 960px;
+    margin: 0 auto;
+}
+/* this is where the about me is, 3rd section */
+.main-area {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    /* top, right, bottom, left margins */
+    margin: 160px 0px;
+    background: #fff;
+    /* top: 29px; */
+    border: 20px solid #ddd;
+  }
+  .row{
+    width: 85%;
+}
+.form-group{
+    width: 40%;
+}
+form{
+    margin: 21px 33px;
+}
+
+/*Container holding the image and the text*/
+
+
+/*position of the text over the image*/
+.hangman_text {
+    position: absolute;
+    bottom: 40%;
+    left: 1%;
+    width: 28%;
+    background: teal;
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+}
+.rpggame_text{
+    position: absolute;
+    bottom: 40%;
+    left: 30.5%;
+    width: 30%;
+    background: teal;
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+}
+.trivia_text{
+    position: absolute;
+    bottom: 34%;
+    left: 64%;
+    width: 25%;
+    background: teal;
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+}
+.widget_text{
+    position: absolute;
+    bottom: 2%;
+    left: 0%;
+    width: 30%;
+    background: teal;
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+}
+.rockpaperscissors_text{
+    position: absolute;
+    bottom: 2%;
+    left: 30.4%;
+    width: 30%;
+    background: teal;
+    color: white;
+    font-size: 18px;
+    text-align: center; 
+}
+
+/*size of the submit button*/
+button{
+    background: #4aaaa5;
+    width: 20%;
+    
+} 
+/* text area*/
+#subject{
+    width: 500px;
+    height:200px;
+}
+
+#Headshot{
+    position: relative;
+    width: 30%;
+    float: left; /* float to the left of the container */
+    padding: 10px;
+    
+    height: 40%;
+    z-index: 2;
+} 
+h1{
+    color:#4aaaa5; font-size: 45px; font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-bottom: 2px gray double;
+    margin: 0px 10px;
+}
+p{
+  font-size: 20px;  
+  line-height: 1.6;
+}
