@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en-us">
 
 <head>
-        <!--Viewport-->
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
         <meta charset="UTF-8">
-        <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+        <title>Portfolio | Sadiya Jiru </title>
         <!--Font Awesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
                 crossorigin="anonymous">
@@ -21,82 +20,70 @@
 </head>
 
 <body>
-        <header id="mainHead">
-                <!--Opening container around gray section-->
-                <!--myNavBar is in my CSS-->
-                <nav class="navbar navbar-light" style="background-color: #008080; ">
-                        <!--font awsome logo for brand icon, myLogo is in my CSS -->
-                        <a class="navbar-brand myLogo" href="">Sadiya Jiru
-                                <i class="fas fa-anchor"></i>
+
+        <header id="masthead">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light myNav">
+                        <a class="navbar-brand" href="#">
+                                <h4>Sadiya Jiru
+                                        <i class="fas fa-anchor"></i>
+                                </h4>
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <!--The toggle icon-->
                                 <span class="navbar-toggler-icon"></span>
-                                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                        <!--myNavs is in my CSS -->
-                                        <div class="navbar-nav">
-                                                <a class="nav-item nav-link active" href="index.html">About
-                                                        <span class="sr-only">(current)</span>
-                                                </a>
-                                                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                                                <a class="nav-item nav-link" href="contact.html">Contact</a>
-                                        </div>
-                                </div>
                         </button>
-                        <!-- The nav links sit -->
-
-                </nav>
-        </header>
-        <!--This is the gray area-->
-        <div id="main-container">
-
-                <section class="main-area">
-                        <h1><br>Portfoli<br></h1>
-                        <div id="grid_container">
-                                <!-- Three rows and 5 columns -->
-                                <div class="row">
-                                        <!--max width of 720px-->
-                                        <div class="col-md-4" >
-                                                <a href="https://sadiyajiru.github.io/Word-Guess-Game/">
-                                                <img class="hangman-game" src="assets/images/hangman.png">
-                                                <br><h3>Hangman</h3>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                        <a class="nav-item nav-link active" href="index.html">About </a>
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                        <a class="nav-link" href="portfolio.html">Portfolio
+                                                <span class="sr-only">(current)</span>
                                         </a>
-                                        </div>
-                                        <div class="col-md-4 ">
-                                                <img class="rpg-game" src="assets/images/rpg.png">
-                                                <br> <h3>RPG Game</h3>
-                                        </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                        <div class="col-md-4">
-                                                <img class="trivia-game" src="assets/images/trivia.png">
-
-                                                <br> <h3>Trivia Game</h3>
-
-                                        </div>
-                                        <div class="col-md-4 ">
-                                                <img class="widget-game" src="assets/images/widget.png">
-                                                <br> <h3>Rutgers Info Widge</h3>
-                                        </div>
-                                        </div>
-                                        <div class="row">
-                                                <div class="col-md-4">
-                                                        <img class="rockpaperscissors-game" src="assets/images/rockpaperscissors.png">
-                                                        <br> <h3>Rock Paper Scissors</h3>
-                                                        <!--empty column-->
-                                                </div>
-                                                <div class="col-md-4"></div>
-                                        </div>
                                 </div>
                         </div>
+                </nav>
 
-        <div class="Footer">
-                <p>
-                        <center>Copyright &copy; 2018 Sadiya Jiru</center>
-                        <p>
+        </header>
+        <div id="main-container" class="container">
+                <section class="main-section">
+                        <h1>Portfolio</h1>
+                        <!-- <div class="container"> -->
+                        <div class="work myRow row">
+                                <div class="col-sm">
+                                        <a href="https://sadiyajiru.github.io/Word-Guess-Game/">
+                                                <img src="assets/images/hangman.png" alt="Word Guess">
+                                                <h3>Word Guess</h3>
+                                        </a>
+                                </div>
+                                <div>
+                                        <img src="assets/images/rpg.png" alt="RPG Game">
+                                        <h3>RPG Game</h3>
+                                </div>
+                                <div>
+                                        <img src="assets/images/trivia.png" alt="Trivia Game">
+                                        <h3>Trivia Game</h3>
+                                </div>
+                        </div>
+                        <div class="work myRow row">
+                                <div class="col-sm">
+                                        <img src="assets/images/rockpaperscissors.png" alt="Rock Paper Scissors">
+                                        <h3>Rock Paper Scissors</h3>
+                                </div>
+                                <div>
+
+                                        <img src="assets/images/widget.png" alt="Rutgers Info Widget">
+                                        <h3>Rutgers Info Widget</h3>
+                                </div>
+                        </div>
+                </section>
         </div>
+
+
+        <footer>
+                <div class="container">
+                        Copyright &copy;
+                </div>
+        </footer>
 </body>
 
 </html>
