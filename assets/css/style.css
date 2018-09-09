@@ -194,20 +194,25 @@ body {
   
   /* contact page */
   
-  #contact-form ul {
+  /* #contact-form ul {
     margin-bottom: 20px;
   }
   
   #contact-form li {
     margin-bottom: 10px;
-  }
+  } */
+   #contact-form{
+         /* border: 1px solid #ddd; */
+         width: 50%;
+
+   }
   
   label,
   input[type=text],
   input[type=email],
   textarea {
-    display: block;
-    width: 100%;
+    /* display: block; */
+    width: 60%;
   }
   
   input[type=text],
@@ -220,7 +225,7 @@ body {
   }
   
   textarea {
-    height: 200px;
+    height: 150px;
   }
   
   input[type=submit] {
@@ -232,3 +237,10 @@ body {
     border: 0 none;
   }
   
+  #myImg{
+        /* border: 2px solid #ddd; */
+    /* height: 203px; */
+    float: right;
+    width: 40%;
+    margin: 25% 0%;
+  }
