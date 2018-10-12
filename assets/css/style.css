@@ -3,7 +3,11 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777;
-    background: url("../images/Background/brushed_alu_dark.png");
+    /* background: url("../images/Background/brushed_alu_dark.png"); */
+    background: #f2709c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
   
   * {
@@ -35,12 +39,12 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: white;
   }
   h4 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: white;
     font-size: 30px;
   }
   .myNav{font-size: 20px;}
@@ -49,7 +53,7 @@ body {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px double teal;
+    border-bottom: 3px double #f2709c;;
   }
   
   h2,
@@ -68,8 +72,12 @@ body {
     margin: 0 0 30px;
     overflow: auto;
     /* color: #fff; */
-    background: #fff;
-    border-bottom: 2px solid #ccc;
+  /* background: url("../images/Background/brushed_alu_dark.png"); */
+  background: #f2709c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    /* border-bottom: 2px solid #ccc; */
   }
   
   #logo {
@@ -83,7 +91,7 @@ body {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: white;
   }
   
   nav {
@@ -111,12 +119,13 @@ body {
     padding: 30px 0;
     clear: both;
     font-size: 20px;
-    color: #fff;
-    color: #ccc;
+    color: white;
     text-align: center;
-    background: #666;
-    border-top: 8px solid #4aaaa5;
-    height: 50px;
+    /* background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+   /* border-top: 8px solid #4aaaa5; */
+    height: 45px;
   }
   
   h3, h2 {
@@ -139,7 +148,11 @@ body {
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
-    background: #fff;
+    /* background: #fff; */
+    background: #ddd6f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     border: 1px solid #ddd;
   }
   
@@ -173,7 +186,7 @@ body {
     line-height: 30px;
     color: #fff;
     text-align: center;
-    background: #4aaaa5;
+    background: #f2709c;
     border-bottom: 0;
   }
   .myRow{
@@ -181,6 +194,11 @@ body {
   }
   .myNav{
       width: 100%;
+     /* background: url("../images/Background/brushed_alu_dark.png"); */
+     background: #f2709c;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
   }
 
   
@@ -233,7 +251,7 @@ body {
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    background: #4aaaa5;
+    background: #f2709c;;
     border: 0 none;
   }
   
