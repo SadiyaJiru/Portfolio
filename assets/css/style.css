@@ -4,12 +4,23 @@ body {
     line-height: 34px;
     color: #777;
     /* background: url("../images/Background/brushed_alu_dark.png"); */
-    background: #f2709c;  /* fallback for old browsers */
+background: #f2709c;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/***********HOME************/
+.homeContainer{
+  position: fixed;
+}
+.button{
+  border: 1px solid white;
+  width: 20%;
+  color: white;
+  padding: 5px 5px;}
 
-  }
-  
+/***********************/
+
+
   * {
     box-sizing: border-box;
   }
