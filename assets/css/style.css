@@ -144,13 +144,17 @@ background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, F
     margin-bottom: 15px;
     line-height: 22px;
     border-bottom: 2px solid #eee;
+    font-size: 12px;
   }
   
   /* main */
   
+
+
   #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
+
   }
   
   .main-section {
@@ -160,11 +164,11 @@ background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, F
     padding: 30px;
     margin: 0 0 40px;
     /* background: #fff; */
-    background: #ddd6f3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #ddd6f3;
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+    background: linear-gradient(to right, #faaca8, #ddd6f3);
     border: 1px solid #ddd;
+    /* overflow-y: scroll; */
   }
   
   /* portfolio page */
