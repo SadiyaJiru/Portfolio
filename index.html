@@ -4,59 +4,65 @@
 <head>
         <meta charset="UTF-8">
         <title>About | Sadiya Jiru </title>
-        <!--Font Awesome-->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-                crossorigin="anonymous">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-                crossorigin="anonymous">
-        <!--JS LINKS FROM BS-->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-                crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-                crossorigin="anonymous"></script>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
 
-        <header id="masthead main-container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light myNav">
-                                <a class="navbar-brand" href="#"><h4>Sadiya Jiru <i class="fas fa-anchor"></i></h4>
-                                                
+        <nav class="nav-wrapper">
+                <div class="container">
+                        <a href="#" class="brand-logo center">Sadiya Jiru</a>
+                        <!--toggler for mobile menu, triggers the sidebar-->
+                        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                                <i class="material-icons" id="menuBtn">menue</i></a>
+                        <!--will hide on medium screen size -->
+                        <ul class="left hide-on-med-and-down">
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="index.html">Home</a></li>
+                        </ul>
+                </div>
+        </nav>
+        <!--Only show on mobile view-->
+        <ul class="sidenav" id="mobile-links">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+        </ul>
 
-                                </a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                                  <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                  <div class="navbar-nav">
-                                    <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                  </div>
-                                </div>
-                              </nav>
-        </header>
 
         <div id="main-container" class="container">
-                <section class="main-section">
-                        
-                        <h1>About Me</h1>
 
-                        <img src="assets/images/Headshot.jpg" class="auth-image" alt="Your Name">
 
-                        <p>Technically skilled Full Stack Web Developer and former MN Army National Guard member 
-                                with six years of experience in military finance. During my time in the service, 
-                                I completed a Bachelor's degree in Computer Science. I found my passion for web 
-                                development during my undergrad career at Augsburg University. Whether it’s building 
-                                something from scratch or improving existing products I enjoy the freedom of being 
-                                creative. My experience with web development involves demonstrated proficiency with 
-                                HTML/CSS, JavaScript/JQuery,JSON, Ajax and much more. I graduated from the University of 
-                                Minnesota Coding Bootcamp to further enhance my web development skills. I also have two 
-                                years of experience with Enterprise Technologies where I troubleshoot Microsoft applications 
-                                and manage Active Directory for various MN State agencies. </p>
+                <h1>About Me</h1>
+
+                <img src="assets/images/Headshot.jpg" class="auth-image" alt="Your Name">
+
+                <p>I am a passionate, action driven and resourceful young professional trying to learn as much as I can
+                        about the vast world of Technoloy.
+                        I am also a technically skilled Full Stack Web Developer and former MN Army National Guard
+                        member. I found my passion for web
+                        development during my undergrad career at Augsburg University where I studied Computer Science.
+                        Whether it’s building
+                        something from scratch or improving existing products, I enjoy the freedom of being
+                        creative. My experience with web development involves demonstrated proficiency with
+                        HTML/CSS, JavaScript/JQuery,JSON, Ajax, MySQL and much more. I graduated from the University of
+                        Minnesota Coding Bootcamp to further enhance my web development skills. I have also worked for
+                        the MN
+                        State Government where I was skillful in providing quality tier-1 technical support and
+                        customer service. With the proven
+                        ability to effectively prioritize incoming tickets, requests, and work orders.
+                </p>
                 </section>
 
         </div>
@@ -65,10 +71,26 @@
                 <div class="container">
                         Copyright &copy;2018 Sadiya Jiru
                         <!--Page view counter-->
-                        <div style="text-align:center;"><script type="text/javascript" src="http://services.webestools.com/cpt_pages_views/63645-11-5.js"></script></div>
-
-                </div>
+                        <div style="text-align:center;">
+                        </div>
         </footer>
+
+
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+        <script> src = "https://code.jquery.com/jquery-3.3.1.min.js"</script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+                $(document).ready(function () {
+                        { passive: true }
+                        //grabs  the sidenav-trigger
+                        $('.sidenav').sidenav();
+                });
+        </script>
 </body>
 
 </html>
