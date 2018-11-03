@@ -64,5 +64,5 @@ UserSchema.methods.lastUpdatedDate = function() {
 // This creates our model from the above schema, using mongoose's model method
 var User = mongoose.model("User", UserSchema);
 
-// Export the User model
+// Export the User model/collection
 module.exports = User;
