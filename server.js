@@ -4,10 +4,10 @@ var express = require("express");
 var logger = require("morgan");
 var mongoose = require("mongoose");
 
-var PORT = 3000;
+var PORT = 8080;
 
 // Requiring the `User` model for accessing the `users` collection
-var User = require("./userModel.js");
+var User = require("./contactModel.js");
 
 // Initialize Express
 var app = express();
@@ -20,7 +20,8 @@ app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Make public a static folder
-app.use(express.static("public"));
+
+app.use(express.static("contact.html"));
 
 // Connect to the Mongo DB
 mongoose.connect("mongodb://localhost/myMailDB", { useNewUrlParser: true });

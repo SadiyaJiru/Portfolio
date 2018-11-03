@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Contact | Sadiya Jiru </title>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+<body>
+
+  <nav>
+    <nav class="nav-wrapper teal">
+            <div class="container">
+                    <a href="#" class="brand-logo center">Sadiya Jiru</a>
+                    <!--toggler for mobile menu, triggers the sidebar-->
+                    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                            <i class="material-icons">menue</i></a>
+                    <!--will hide on medium screen size -->
+                    <ul class="left hide-on-med-and-down">
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <!-- <li><a href="contact.html">Contact</a></li>-->
+                            <li><a href="index.html">Home</a></li> 
+                    </ul>
+
+            </div>
+    </nav>
+</nav>
+<!--Only show on mobile view-->
+<ul class="sidenav" id="mobile-links">
+    <li>
+            <div class="user-view">
+                    <div class="background">
+                            <img class="navImg" src="../assets/images/Background/island.jpg">
+                    </div>
+                    <a href="#user"><img class="circle" src="../assets/images/Headshot.jpg"></a>
+                    <a href="#name"><span class="white-text name">Sadiya Jiru</span></a>
+                    <a href="#email"><span class="white-text email">SadiyaJiru@gmail.com</span></a>
+    <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="material-icons">tag_faces</i>Connect
+                    on LinkedIn</a></li>
+    <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="material-icons">cloud</i>GitHub
+                    Profile</a></li>
+
+
+    <li><a class="subheader">_____________________________________</a></li>
+    <li><a href="portfolio.html"><i class="material-icons">collections</i>Click to view portfolio</a></li>
+    <!-- <li><a href="contact.html">Contact</a></li>
+    <li><a href="index.html">Home</a></li> -->
+</ul>
+
+  <div id="main-container" class="container">
+     
+
+    <section class="main-section">
+        <div id="myImg">
+            <img src="../assets/images/waterfall.jpg" class="auth-image" alt="Sadiya jiru">
+            <br><br>
+            <p> SadiyaJiru@gmail.com </p>
+            <a class="nav-link" href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/"target="_blank">LinkedIn profile
+              <i class="fab fa-linkedin"></i>
+            </a> 
+
+
+            <a class="nav-link" href="https://github.com/SadiyaJiru/"target="_blank">GitHub profile
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+
+
+
+
+
+         
+
+
+      <h1>Contact <i class="far fa-envelope"></i>
+
+      </h1>
+
+      <form id="contact-form">
+        <form action="/submit" method="post">
+            <label for="name">First Name</label><br>
+            <input type="text" id="name" name="firstName" placeholder="">
+
+            <label for="name">Last Name</label><br>
+            <input type="text" id="name" name="lastName" placeholder="">
+          
+         
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder=""><br>
+            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+
+        
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" required="required"></textarea> <br>
+          
+        <input type="submit">
+        </form>
+      </form>
+
+
+     
+    </section>
+   
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2018 Sadiya Jiru
+      
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <script> src = "https://code.jquery.com/jquery-3.3.1.min.js"</script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+          $(document).ready(function () {
+                  // { passive: true }
+                  //grabs  the sidenav-trigger
+                  $('.sidenav').sidenav();
+          });
+  </script>
+</body>
+
+</html>

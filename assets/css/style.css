@@ -304,6 +304,8 @@ text-align: center;
   textarea {
     /* display: block; */
     width: 60%;
+    color: white;
+    font-size: 20px;
   }
   
   input[type=text],
@@ -312,7 +314,7 @@ text-align: center;
     height: 35px;
     padding: 0 10px;
     font-size: 14px;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
   }
   
   textarea {

@@ -44,6 +44,7 @@ message:{
   fullName: String
 });
 
+
 // Define the following custom instance methods here
 
 // 1. setFullName: sets the current user's `fullName` property to their lastName appended to their `firstName`
