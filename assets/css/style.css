@@ -1,17 +1,14 @@
-/* body {
-   background: url("/assets/images/cs.jpg"); 
 
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+body {
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
     font-size: 18px;
     line-height: 34px;
-    color: #777;
-    background: url("../images/Background/brushed_alu_dark.png"); 
-background: #f2709c;  
-background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
-background: linear-gradient(to right, #ff9472, #f2709c); 
-} */
-
-body{
+    color: white; 
+    background-color: #008075;
+    background-image: url("../images/Background/concrete-wall-2.png"); 
+      background-repeat: auto;
+    }
+/* body{
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
@@ -57,17 +54,7 @@ body{
 		background-position: 0% 50%
 	}
 }
-
-/* h1,
-h6 {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	text-align: center;
-	position: absolute;
-	top: 45%;
-	right: 0;
-	left: 0;
-} */
+ */
 
 
 
@@ -97,43 +84,40 @@ h6 {
     clear: both;
   }
   
-  h1,
-  h2,
-  h3,
-  p {
-    margin-bottom: 20px;
-  }
-  
   p:last-child {
     margin-bottom: 0;
   }
   
-  h1,
+  /* h1,
   h2,
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: white;
-  }
-  h4 {
+  } */
+  /* h4 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: white;
     font-size: 30px;
-  }
-  .myNav{font-size: 20px;}
+  } */
+  /* .myNav{font-size: 20px;} */
   
-  h1 {
+  /* h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px double #f2709c;;
-  }
+    /* border-bottom: 3px double #f2709c;; */
+  /* } */ */
   
-  h2,
+ 
   h3 {
     font-size: 22px;
   }
+h2{
+  font-size: 30px;
+}
+  
   p{
     line-height: 1.4;
   }
@@ -202,11 +186,11 @@ h6 {
     height: 45px;
   }
   
-  h3, h2 {
+  h3 {
     padding-bottom: 20px;
-    margin-bottom: 15px;
+    margin-top: 0px;
     line-height: 22px;
-    border-bottom: 2px solid #eee;
+    /* border-bottom: 2px solid #eee; */
     font-size: 12px;
   }
   
@@ -270,22 +254,18 @@ h6 {
   .myRow{
     margin: 5px 100px;
   }
-  .myNav{
-      width: 100%;
-     /* background: url("../images/Background/brushed_alu_dark.png"); */
-     background: #f2709c;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-     
-  }
+
+
 
   
-  .auth-image {
-    float: left;
-    width: 200px;
+  #auth-image {
+    width: 150px;
     height: auto;
     margin-top: 10px;
-    margin-right: 25px;
+    margin-right: 50%;
+  }
+  #headshot {
+text-align: center;
   }
   
   /* contact page */
@@ -339,4 +319,8 @@ h6 {
     float: right;
     width: 40%;
     margin: 10% 0%;
+  }
+  .navImg{
+    width: 100%;
+    height: 100%;
   }
