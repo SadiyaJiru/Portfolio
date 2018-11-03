@@ -1,11 +1,18 @@
 # General
+node_modules
+build
+npm-debug.log
+.env
 .DS_Store
-.AppleDouble
-.LSOverride
 
 # Icon must end with two \r
 Icon
 
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # Thumbnails
 ._*
