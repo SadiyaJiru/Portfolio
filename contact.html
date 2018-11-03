@@ -68,20 +68,24 @@
       </h1>
 
       <form id="contact-form">
-        
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
+        <form action="/submit" method="post">
+            <label for="name">First Name</label><br>
+            <input type="text" id="name" name="firstName" placeholder="">
+
+            <label for="name">Last Name</label><br>
+            <input type="text" id="name" name="lastName" placeholder="">
           
          
             <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" placeholder="example@yahoo.com" required="required"><br>
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <input type="text" id="email" name="email" placeholder=""><br>
+            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
 
         
             <label for="message">Message</label><br>
             <textarea id="message" name="message" required="required"></textarea> <br>
           
         <input type="submit">
+        </form>
       </form>
 
 
