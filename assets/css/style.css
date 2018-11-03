@@ -1,12 +1,13 @@
 
 body {
-    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
     font-size: 18px;
     line-height: 34px;
-    color: white; 
-    background-color: #008075;
-    background-image: url("../images/Background/concrete-wall-2.png"); 
-      background-repeat: auto;
+    color: black; 
+    background-color: teal;
+    background-image: url("../images/Background/beach2.png");
+    background-repeat: none; 
+    /* background-image: url("../images/Background/concrete-wall-2.png"); 
+      background-repeat: auto; */
     }
 /* body{
 	width: 100wh;
@@ -53,8 +54,8 @@ body {
 	100% {
 		background-position: 0% 50%
 	}
-}
- */
+} */
+
 
 
 
@@ -78,6 +79,7 @@ body {
   /* general */
   
   .container {
+    margin-top: 10px;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
@@ -108,8 +110,12 @@ body {
     font-size: 30px;
     line-height: 49px;
     /* border-bottom: 3px double #f2709c;; */
-  /* } */ */
+  /* } */ 
   
+  .myNav{
+    /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); */
+background-image: url("../images/Background/navImg.png")
+  }
  
   h3 {
     font-size: 22px;
@@ -198,19 +204,28 @@ h2{
   
 
 
-  #main-container {
-    padding-top: 130px;
+  .main-container {
+    padding-top: 85px;
     min-height: calc(100vh - 70px);
 
   }
   
-  .main-section {
-    float: left;
+  .paraContainer{
+    /* float: left;
     width: 100%;
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
-    /* background: #fff; */
+     background: #fff;  */
+
+     float: left;
+     /* width: 100%; */
+     max-width: 960px;
+     padding: 20px;
+     margin: 0px 0 7px;
+     background: #fff;
+     overflow-y: scroll;
+
     /* background: #ddd6f3;
     background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
     background: linear-gradient(to right, #faaca8, #ddd6f3);
