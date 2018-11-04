@@ -29,7 +29,6 @@ app.use(express.static("public"));
 
 // var databaseUri = "mongodb://localhost/portfolio_inbox";
 
-
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/portfolio_inbox";
 
@@ -78,6 +77,6 @@ user.lastUpdatedDate();
 });
 
 // Start the server
-app.listen(PORT, function() {
+app.listen(process.env.PORT || 8080, function() {
   console.log("App running on port " + PORT + "!");
 });
