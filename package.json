@@ -1,24 +1,18 @@
 {
   "name": "Bootstrap-Portfolio",
   "version": "1.0.0",
-  "description": "Responsiveness Assignment Building my portfolio layout using the Bootstrap CSS Framework.",
-  "main": "contactModel.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SadiyaJiru/Bootstrap-Portfolio.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SadiyaJiru/Bootstrap-Portfolio/issues"
-  },
-  "homepage": "https://github.com/SadiyaJiru/Bootstrap-Portfolio#readme",
   "dependencies": {
-    "morgan": "^1.9.1"
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11",
+    "morgan": "^1.9.0"
   }
 }

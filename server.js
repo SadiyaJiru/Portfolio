@@ -7,7 +7,7 @@ var mongoose = require("mongoose");
 var PORT = 8080;
 
 // Requiring the `User` model for accessing the `users` collection
-var User = require("./contactModel.js");
+var User = require("./contactModel");
 
 // Initialize Express
 var app = express();
@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://localhost/myMailDB", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost/portfolio_inbox", { useNewUrlParser: true });
 
 // Routes
 
