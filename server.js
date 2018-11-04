@@ -27,12 +27,19 @@ app.use(express.static("public"));
 // Connect to the Mongo DB
 // mongoose.connect("mongodb://localhost/portfolio_inbox", { useNewUrlParser: true });
 
-var databaseUri = "mongodb://localhost/portfolio_inbox";
+// var databaseUri = "mongodb://localhost/portfolio_inbox";
+
+
+// If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/portfolio_inbox";
+
+mongoose.connect(MONGODB_URI);
+
 //Connecting to Heroku
 if(process.env.MONGODB_URI){
   mongoose.connect(process.env.MONGODB_URI);
 }else{
-  mongoose.connect(databaseUri);
+  mongoose.connect(MONGODB_URI);
 }
 var db = mongoose.connection;
 db.on("error", function(err){
