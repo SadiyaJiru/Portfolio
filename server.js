@@ -8,7 +8,7 @@ var cheerio = require ("cheerio")
 var PORT = 8080;
 
 // Requiring the `User` model for accessing the `users` collection
-var User = require("./public/app");
+var User = require("./contactsDB");
 
 // Initialize Express
 var app = express();
