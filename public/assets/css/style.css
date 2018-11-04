@@ -3,11 +3,16 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: black; 
-    background-color: rgb(177, 206, 223);
-    /* background-image: url("../images/Background/beach2.png");
-    background-repeat: none;  */
-    background-image: url("../images/Background/concrete-wall-2.png"); 
-      background-repeat: auto;
+    background-color: #ff80ab;
+
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/Background/beach2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    /* background-image: url("../images/Background/concrete-wall-2.png"); 
+      background-repeat: auto; */
     }
 /* body{
 	width: 100wh;
@@ -80,7 +85,7 @@ body {
   
   .container {
     margin-top: 10px;
-    width: 100%;
+    /* width: 100%; */
     max-width: 960px;
     margin: 0 auto;
     clear: both;
