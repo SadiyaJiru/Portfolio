@@ -1,9 +1,10 @@
 // Add code to userModel.js to complete the model
+var request = require('request');
 
 var express = require("express");
 var logger = require("morgan");
 var mongoose = require("mongoose");
-
+var cheerio = require ("cheerio")
 var PORT = 8080;
 
 // Requiring the `User` model for accessing the `users` collection
@@ -24,7 +25,26 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://localhost/portfolio_inbox", { useNewUrlParser: true });
+// mongoose.connect("mongodb://localhost/portfolio_inbox", { useNewUrlParser: true });
+
+var databaseUri = "mongodb://localhost/portfolio_inbox";
+//Connecting to Heroku
+if(process.env.MONGODB_URI){
+  mongoose.connect(process.env.MONGODB_URI);
+}else{
+  mongoose.connect(databaseUri);
+}
+var db = mongoose.connection;
+db.on("error", function(err){
+  console.log("Mongoose Error: ", err)
+});
+db.once("open", function(){
+  console.log("Mongoose Connection Successful.");
+});
+
+
+
+
 
 // Routes
 
