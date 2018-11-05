@@ -15,6 +15,8 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: black; 
+  font-family: 'Playfair Display', serif;
+
     /* background-color: #ff80ab;
 
     width: 100%;
@@ -109,9 +111,12 @@ body {
   
   h3 {
     font-size: 22px;
+    color: #00838f 
   }
 h2{
   font-size: 30px;
+  
+  color: #00838f 
 }
   
   p{
@@ -119,7 +124,7 @@ h2{
   }
   /* header */
   
-  #logo {
+  /* #logo {
     float: left;
     width: 250px;
     height: 90px;
@@ -131,7 +136,7 @@ h2{
     text-align: center;
     text-decoration: none;
     background: white;
-  }
+  } */
   
   footer {
     padding: 30px 0;
@@ -139,12 +144,23 @@ h2{
     font-size: 20px;
     color: grey;
     text-align: center;
-    /* background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-   /* border-top: 8px solid #4aaaa5; */
     height: 45px;
   }
+  .homefooter{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 30px 0;
+    clear: both;
+    font-size: 20px;
+    color: grey;
+    text-align: center
+  }
+
+ 
+
+  
   
   h3 {
     padding-bottom: 20px;
@@ -217,7 +233,7 @@ h2{
     line-height: 30px;
     color: #fff;
     text-align: center;
-    background: #ff80ab;
+    background: #00838f ;
     border-bottom: 0;
   }
   .myRow{
@@ -228,14 +244,9 @@ h2{
 
   
   #auth-image {
-    width: 150px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 50%;
+    width: 150px; 
   }
-  #headshot {
-text-align: center;
-  }
+
   
   /* contact page */
   
@@ -257,7 +268,7 @@ text-align: center;
   input[type=email],
   textarea {
     /* display: block; */
-    color: white;
+    color: black;
     font-size: 20px;
   }
   
@@ -285,7 +296,7 @@ color: black;
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    background: #ff80ab;
+    background: #00838f;
     border: 0 none;
     border: 1px solid #ddd;
   }
@@ -308,4 +319,3 @@ color: black;
   .btn{
     color: white;
   }
- 

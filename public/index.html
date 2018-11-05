@@ -9,6 +9,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--From GoogleFonts-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -19,7 +21,7 @@
 
 <body>
         <nav>
-                <nav class="nav-wrapper  pink accent-1">
+                <nav class="nav-wrapper  cyan darken-3">
                         <div class="container">
                                 <a href="#" class="brand-logo center">Sadiya Jiru</a>
                                 <!--toggler for mobile menu, triggers the sidebar-->
@@ -65,7 +67,10 @@
 
 
 
-                <div class="paraContainer">
+
+                <div class="paraContainer" >
+                
+                        <h2>About Me</h2>
                 <p>     <blockquote>
                         I am a passionate, action driven and resourceful young professional trying<br>
                         to learn as much as I can about the vast world of Technoloy. I am also a <br>
@@ -84,13 +89,26 @@
                        and watching Life Time Movies that seem to all have the same plot.<br>
                 </p>
 
-                <div id="headshot">
-                        <a href="#user"><img class="circle" src="assets/images/Headshot.jpg" id="auth-image" alt="Sadiya Jiru">
+                <div id="headshot"  class="center-align">
+                        <a href="#user"><img class="circle" src="assets/images/Headshot.jpg" id="auth-image"  class="center-align"alt="Sadiya Jiru">
                         </a>
                 </div>
+                <a class="waves-effect waves-light btn modal-trigger   cyan darken-3" href="./assets/Sadiya_Jiru Resume.pdf">Click for Resume</a>
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                  <!-- <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
+                  </div> -->
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
         </div>
         </div>
-</section>
+
         <footer>
                 <div class="container">
                         Copyright &copy;2018 Sadiya Jiru
@@ -110,10 +128,13 @@
 
         <script>
                 $(document).ready(function () {
-                        { passive: true }
+                        // { passive: true }
                         //grabs  the sidenav-trigger
                         $('.sidenav').sidenav();
+                        $('.modal').modal();
                 });
+        
+      
         </script>
 </body>
 
