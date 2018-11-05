@@ -65,7 +65,7 @@ user.lastUpdatedDate();
   User.create(user)
     .then(function(dbUser) {
       // If saved successfully, send the the new User document to the client
-      res.json(dbUser + "    ------------------>>>>>>>    PLEASE REFRESH THE PAGE I HAVEN'T FIXED THIS ROUTE YET :)  --->> Thanks, SJ" );
+      res.json(dbUser + "    ------------------>>>>>>>    PLEASE REFRESH THE PAGE I HAVEN'T FIXED THIS ROUTE YET :) BUT I RECIEVED YOUR MESSAGE --------->> Thanks, SJ" );
     })
     .catch(function(err) {
       // If an error occurs, send the error to the client
