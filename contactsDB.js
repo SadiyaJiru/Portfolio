@@ -24,13 +24,16 @@ var UserSchema = new Schema({
     trim: true,
     required: "Last Name is Required"
   },
-  // `email` must be of type String
-  // `email` must be unique
+  
   // `email` must match the regex pattern below and throws a custom error message if it does not
   // You can read more about RegEx Patterns here https://www.regexbuddy.com/regex.html
   email: {
     type: String,
-    unique: true,
+    trim: true,
+    index: {
+      unique: false,
+    },
+    required: "First Name is Required",
     match: [/.+@.+\..+/, "Please enter a valid e-mail address"]
   },
 message:{

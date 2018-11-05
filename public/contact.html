@@ -35,6 +35,7 @@
         <!--Only show on mobile view-->
         <ul class="sidenav" id="mobile-links">
                 <li>
+
                         <div class="user-view">
                                 <div class="background">
                                         <img class="navImg" src="assets/images/Background/island.jpg">
@@ -42,6 +43,7 @@
                                 <a href="#user"><img class="circle" src="assets/images/Headshot.jpg"></a>
                                 <a href="#name"><span class="white-text name">Sadiya Jiru</span></a>
                                 <a href="#email"><span class="white-text email">SadiyaJiru@gmail.com</span></a>
+
                 <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="material-icons">tag_faces</i>Connect
                                 on LinkedIn</a></li>
                 <li><a href="https://github.com/SadiyaJiru/" target="_blank"><i class="material-icons">cloud</i>GitHub
@@ -50,13 +52,13 @@
                 <li><a class="subheader">_____________________________________</a></li>
                 <li><a href="portfolio.html"><i class="material-icons">collections</i>Click to view portfolio</a></li>
                 <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
-
+                </div>
         </ul>
 
         <div id="main-container" class="container">
 
                 <section class="main-section">
-                        <img src="assets/images/waterfall.jpg" class="waterfallImg" alt="Sadiya jiru">
+                        <img src="assets/images/Background/waterfall.jpg" id="waterfallImg" alt="Sadiya jiru">
 
                         <div id="contact-form">
                                 <form action="/submit" method="post">
@@ -69,25 +71,29 @@
                                         <label for="email">Email</label><br>
                                         <input type="text" id="email" name="email" placeholder=""><br>
                                         <small id="emailHelp" class="form-text text-muted">I'll never share your email
-                                                with anyone else.</small><br>
+                                                without permission.</small><br>
 
                                         <label for="message">Message</label><br>
                                         <textarea id="message" name="message" required="required"></textarea> <br>
 
 
                                         <!-- <a class="btnSub"  onclick="M.toast({html: 'Thanks Your Message Is Sent'})"> -->
-
                                         <input type="submit">
+                                        <!-- onclick="resetFunc()" value="Submit"> -->
                                 </form>
                         </div>
                 </section>
         </div>
+        <!-- <script>
        
-
+       function resetFunc() {
+                document.getElementById("contact-form").reset();
+}
+      </script> -->
 
         <footer>
                 <!-- <div class="container"> -->
-                        Copyright &copy; 2018 Sadiya Jiru
+                Copyright &copy; 2018 Sadiya Jiru
 
                 <!-- </div> -->
         </footer>
@@ -104,9 +110,9 @@
                         //grabs  the sidenav-trigger
                         $('.sidenav').sidenav();
                 });
-                // function myClick(){
-                //         M.toast("")
-                // }
+                function resetFunc() {
+                        $(document).getElementById("contact-form").reset();
+                }
         </script>
 </body>
 

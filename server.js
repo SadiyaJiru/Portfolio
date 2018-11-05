@@ -48,11 +48,8 @@ db.once("open", function(){
   console.log("Mongoose Connection Successful.");
 });
 
-
-
-
-
 // Routes
+
 
 // Route to post our form submission to mongoDB via mongoose
 app.post("/submit", function(req, res) {

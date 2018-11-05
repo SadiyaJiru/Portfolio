@@ -2,7 +2,7 @@
  the height of the browser window). We set a fixed and centered background on it,
   then adjust it's size using background-size set to the cover keyword.*/
 html { 
-  background: url("../images/Background/beach2.png") no-repeat center center fixed; 
+  background: url("../images/Background/pineapple.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -107,33 +107,6 @@ body {
     margin-bottom: 0;
   }
   
-  /* h1,
-  h2,
-  h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: 700;
-    color: white;
-  } */
-  /* h4 {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: 700;
-    color: white;
-    font-size: 30px;
-  } */
-  /* .myNav{font-size: 20px;} */
-  
-  /* h1 {
-    padding-bottom: 20px;
-    font-size: 30px;
-    line-height: 49px;
-    /* border-bottom: 3px double #f2709c;; */
-  /* } */ 
-  
-  .myNav{
-    /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); */
-background-image: url("../images/Background/navImg.png")
-  }
- 
   h3 {
     font-size: 22px;
   }
@@ -164,7 +137,7 @@ h2{
     padding: 30px 0;
     clear: both;
     font-size: 20px;
-    color: white;
+    color: grey;
     text-align: center;
     /* background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
     /*background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -318,14 +291,15 @@ color: black;
   }
   
   
-  .waterfallImg{
+  #waterfallImg{
     position: relative;
     float: right;
     width: 30%;
     height: auto;
     /*top/right*/
     margin: 15% 5%;
-
+    border-radius: 50%;
+    /* opacity: 0.8 */
   }
   .navImg{
     width: 100%;
@@ -334,3 +308,4 @@ color: black;
   .btn{
     color: white;
   }
+ 
