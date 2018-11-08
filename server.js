@@ -58,20 +58,26 @@ var user = new User(req.body);
 
 user.setFullName();
 user.lastUpdatedDate();
-
   // Update this route to run the `setFullName` and `lastUpdatedDate` methods before creating a new User
   // You must create these methods in the model.
-
   User.create(user)
     .then(function(dbUser) {
       // If saved successfully, send the the new User document to the client
-      res.json(dbUser + "    ------------------>>>>>>>    PLEASE REFRESH THE PAGE I HAVEN'T FIXED THIS ROUTE YET :) BUT I RECIEVED YOUR MESSAGE --------->> Thanks, SJ" );
+      // res.json(dbUser);
+      res.end();
+      // + "    ------------------>>>>>>>    PLEASE REFRESH THE PAGE I HAVEN'T FIXED THIS ROUTE YET :) BUT I RECIEVED YOUR MESSAGE --------->> Thanks, SJ" 
     })
     .catch(function(err) {
       // If an error occurs, send the error to the client
       res.json(err);
     });
+
 });
+
+
+
+
+
 
 // Start the server
 app.listen(process.env.PORT || 8080, function() {

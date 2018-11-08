@@ -85,7 +85,7 @@
 
 
                                         <!-- <a class="btnSub"  onclick="M.toast({html: 'Thanks Your Message Is Sent'})"> -->
-                                        <input type="submit">
+                                        <input type="submit" onclick="resetForm()" value="Submit">
                                         <!-- onclick="resetFunc()" value="Submit"> -->
                                 </form>
                         </div>
@@ -117,7 +117,7 @@
                         //grabs  the sidenav-trigger
                         $('.sidenav').sidenav();
                 });
-                function resetFunc() {
+                function resetForm() {
                         $(document).getElementById("contact-form").reset();
                 }
         </script>
