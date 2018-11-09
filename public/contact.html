@@ -84,20 +84,15 @@
                                         <textarea id="message" name="message" required="required"></textarea> <br>
 
 
-                                        <!-- <a class="btnSub"  onclick="M.toast({html: 'Thanks Your Message Is Sent'})"> -->
-                                        <input type="submit" onclick="resetForm()" value="Submit">
-                                        <!-- onclick="resetFunc()" value="Submit"> -->
+                                        <input type="submit" onclick="myFunction()">
+
+
+
                                 </form>
                         </div>
                 </section>
         </div>
-        <!-- <script>
-       
-       function resetFunc() {
-                document.getElementById("contact-form").reset();
-}
-      </script> -->
-
+  
         <footer>
                 <!-- <div class="container"> -->
                 Copyright &copy; 2018 Sadiya Jiru
@@ -117,9 +112,11 @@
                         //grabs  the sidenav-trigger
                         $('.sidenav').sidenav();
                 });
-                function resetForm() {
-                        $(document).getElementById("contact-form").reset();
-                }
+              
+
+              function myFunction() {
+    alert("Thank you your message has been sent");
+}
         </script>
 </body>
 

@@ -48,8 +48,12 @@ db.once("open", function(){
   console.log("Mongoose Connection Successful.");
 });
 
-// Routes
-
+  // Load index page 
+  app.get('/', (req, res) => {
+    res.render('index', {
+     
+    });
+  });
 
 // Route to post our form submission to mongoDB via mongoose
 app.post("/submit", function(req, res) {
@@ -63,10 +67,8 @@ user.lastUpdatedDate();
   User.create(user)
     .then(function(dbUser) {
       // If saved successfully, send the the new User document to the client
-      // res.json(dbUser);
-      res.end();
-      // + "    ------------------>>>>>>>    PLEASE REFRESH THE PAGE I HAVEN'T FIXED THIS ROUTE YET :) BUT I RECIEVED YOUR MESSAGE --------->> Thanks, SJ" 
-    })
+      res.redirect("/");
+          })
     .catch(function(err) {
       // If an error occurs, send the error to the client
       res.json(err);
