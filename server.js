@@ -4,7 +4,6 @@ var request = require('request');
 var express = require("express");
 var logger = require("morgan");
 var mongoose = require("mongoose");
-var cheerio = require ("cheerio")
 var PORT = 8080;
 
 // Requiring the `User` model for accessing the `users` collection
