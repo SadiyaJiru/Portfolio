@@ -64,7 +64,7 @@ user.lastUpdatedDate();
   // Update this route to run the `setFullName` and `lastUpdatedDate` methods before creating a new User
   // You must create these methods in the model.
   User.create(user)
-    .then(function(dbUser) {
+    .then(function() {
       // If saved successfully, send the the new User document to the client
       res.redirect("/");
           })
@@ -74,10 +74,6 @@ user.lastUpdatedDate();
     });
 
 });
-
-
-
-
 
 
 // Start the server
