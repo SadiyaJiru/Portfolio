@@ -248,14 +248,6 @@ h2{
   }
 
   
-
-   #contact-form{
-    margin-top: 10px;
-         width: 50%;
-         float: left;
-
-
-   }
   
   label,
   input[type=text],
@@ -273,6 +265,8 @@ h2{
     padding: 0 10px;
     font-size: 14px;
     border: 2px solid #ddd;
+   
+
   }
   
   textarea {
@@ -283,36 +277,26 @@ border: 2px solid #ddd;
 background: white;
 color: black;
 
+
   }
   
   input[type=submit] {
-    padding: 15px 30px;
+    padding: 10px 20px;
     font-size: 18px;
     color: #fff;
     cursor: pointer;
     background: #00838f;
-    border: 0 none;
     border: 1px solid #ddd;
   }
   
-  
-  #waterfallImg{
-    position: relative;
-    float: right;
-    width: 30%;
-    height: auto;
-    /*top/right*/
-    margin: 15% 5%;
-    border-radius: 50%;
-    /* opacity: 0.8 */
-  }
-  .navImg{
-    width: 100%;
-    height: 100%;
-  }
-  .btn{
-    color: white;
-  }
+
 .crdImg{
   padding: 10px
 }
+   #contact-form{
+    margin-top: 10px;
+         float: left;
+         width: 80%;
+         padding: 10px
+
+   }
