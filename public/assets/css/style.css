@@ -248,18 +248,12 @@ h2{
   }
 
   
-  /* contact page */
-  
-  /* #contact-form ul {
-    margin-bottom: 20px;
-  }
-  
-  #contact-form li {
-    margin-bottom: 10px;
-  } */
+
    #contact-form{
     margin-top: 10px;
          width: 50%;
+         float: left;
+
 
    }
   
@@ -292,7 +286,7 @@ color: black;
   }
   
   input[type=submit] {
-    padding: 10px 30px;
+    padding: 15px 30px;
     font-size: 18px;
     color: #fff;
     cursor: pointer;
@@ -319,3 +313,6 @@ color: black;
   .btn{
     color: white;
   }
+.crdImg{
+  padding: 10px
+}
