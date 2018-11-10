@@ -1,302 +1,303 @@
 /*We'll use the html element (better than body as it's always at least
  the height of the browser window). We set a fixed and centered background on it,
   then adjust it's size using background-size set to the cover keyword.*/
-html { 
-  background: url("../images/Background/pineapple.png") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-
-
-body {
-    font-size: 18px;
-    line-height: 34px;
-    color: black; 
-  font-family: 'Playfair Display', serif;
-
-    /* background-color: #ff80ab;
-
-    width: 100%;
-    height: 400px;
-    background-image: url("../images/Background/beach2.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
-
-    /* background-image: url("../images/Background/concrete-wall-2.png"); 
-      background-repeat: auto; */
-    }
-/* body{
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-} */
-
-
-
-
-/***********HOME************/
-.homeContainer{
-  position: fixed;
-}
-.button{
-  border: 1px solid white;
-  width: 20%;
-  color: white;
-  padding: 5px 5px;}
-
-/***********************/
-
-
-  * {
-    box-sizing: border-box;
+  html { 
+    background: url("../images/Background/pineapple.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   
-  /* general */
   
-  .container {
-    margin-top: 10px;
-    /* width: 100%; */
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-  }
   
-  p:last-child {
-    margin-bottom: 0;
-  }
+  body {
+      font-size: 18px;
+      line-height: 34px;
+      color: black; 
+    font-family: 'Playfair Display', serif;
   
-  h3 {
-    font-size: 22px;
-    color: #00838f 
-  }
-h2{
-  font-size: 30px;
+      /* background-color: #ff80ab;
+      width: 100%;
+      height: 400px;
+      background-image: url("../images/Background/beach2.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%; */
   
-  color: #00838f 
-}
-  
-  p{
-    line-height: 1.4;
-  }
-  /* header */
-  
-  /* #logo {
-    float: left;
-    width: 250px;
-    height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 90px;
+      /* background-image: url("../images/Background/concrete-wall-2.png"); 
+        background-repeat: auto; */
+      }
+  /* body{
+    width: 100wh;
+    height: 90vh;
     color: #fff;
-    text-align: center;
-    text-decoration: none;
-    background: white;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+  }
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
   } */
   
-  footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 20px;
-    color: grey;
-    text-align: center;
-    height: 45px;
+  
+  
+  
+  /***********HOME************/
+  .homeContainer{
+    position: fixed;
   }
-  .homefooter{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 30px 0;
-    clear: both;
-    font-size: 20px;
-    color: grey;
-    text-align: center
+  .button{
+    border: 1px solid white;
+    width: 20%;
+    color: white;
+    padding: 5px 5px;}
+  
+  /***********************/
+  
+  
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* general */
+    
+    .container {
+      margin-top: 10px;
+      /* width: 100%; */
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
+    }
+    
+    p:last-child {
+      margin-bottom: 0;
+    }
+    
+    h3 {
+      font-size: 22px;
+      color: #00838f 
+    }
+  h2{
+    font-size: 30px;
+    
+    color: #00838f 
   }
-
- 
-
+    
+    p{
+      line-height: 1.4;
+    }
+    /* header */
+    
+    /* #logo {
+      float: left;
+      width: 250px;
+      height: 90px;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 90px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      background: white;
+    } */
+    
+    footer {
+      padding: 30px 0;
+      clear: both;
+      font-size: 20px;
+      color: grey;
+      text-align: center;
+      height: 45px;
+    }
+    .homefooter{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 30px 0;
+      clear: both;
+      font-size: 20px;
+      color: grey;
+      text-align: center
+    }
   
-  
-  h3 {
-    padding-bottom: 20px;
-    margin-top: 0px;
-    line-height: 22px;
-    /* border-bottom: 2px solid #eee; */
-    font-size: 12px;
-  }
-  
-  /* main */
-  
-
-
-  .main-container {
-    padding-top: 85px;
-    min-height: calc(100vh - 70px);
-
-  }
-  
-  .paraContainer{
-    /* float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 30px;
-    margin: 0 0 40px;
-     background: #fff;  */
-
-     float: left;
-     /* width: 100%; */
-     max-width: 960px;
-     padding: 20px;
-     margin: 0px 0 7px;
-     background: #fff;
-     overflow-y: scroll;
-
-    /* background: #ddd6f3;
-    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
-    background: linear-gradient(to right, #faaca8, #ddd6f3);
-    border: 1px solid #ddd; */
-    /* overflow-y: scroll; */
-  }
-  
-  /* portfolio page */
-  
-  .work {
-    position: relative;
-    float: left;
-    width: 170px;
-    margin: 20px 0 25px;
-    overflow: auto;
-  }
-  
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
-  .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-  }
-  
-  .work h3 {
-    /* position: absolute; */
-    /* bottom: 17px; */
-    width: 100%;
-    padding: 8px;
-    /* margin-bottom: 0; */
-    font-weight: 300;
-    line-height: 30px;
-    color: #fff;
-    text-align: center;
-    background: #00838f ;
-    border-bottom: 0;
-  }
-  .myRow{
-    margin: 5px 100px;
-  }
-
-
-
-  
-  #auth-image {
-    width: 150px; 
-  }
-
-  
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
-    /* display: block; */
-    color: black;
-    font-size: 20px;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 2px solid #ddd;
    
-
-  }
   
-  textarea {
-    height: 150px;
-  }
-  #name, #email, textarea{
-border: 2px solid #ddd;
-background: white;
-color: black;
-
-
-  }
+    
+    
+    h3 {
+      padding-bottom: 20px;
+      margin-top: 0px;
+      line-height: 22px;
+      /* border-bottom: 2px solid #eee; */
+      font-size: 12px;
+    }
+    
+    /* main */
+    
   
-  input[type=submit] {
-    padding: 10px 20px;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
-    background: #00838f;
-    border: 1px solid #ddd;
-  }
   
-
-.crdImg{
-  padding: 10px
-}
-   #contact-form{
-    margin-top: 10px;
-         float: left;
-         width: 80%;
-         padding: 10px
-
-   }
+    .main-container {
+      padding-top: 85px;
+      min-height: calc(100vh - 70px);
+  
+    }
+    
+    .paraContainer{
+      /* float: left;
+      width: 100%;
+      max-width: 960px;
+      padding: 30px;
+      margin: 0 0 40px;
+       background: #fff;  */
+  
+       float: left;
+       /* width: 100%; */
+       max-width: 960px;
+       padding: 20px;
+       margin: 0px 0 7px;
+       background: #fff;
+       overflow-y: scroll;
+  
+      /* background: #ddd6f3;
+      background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+      background: linear-gradient(to right, #faaca8, #ddd6f3);
+      border: 1px solid #ddd; */
+      /* overflow-y: scroll; */
+    }
+    
+    /* portfolio page */
+    
+    .work {
+      position: relative;
+      float: left;
+      width: 170px;
+      margin: 20px 0 25px;
+      overflow: auto;
+    }
+    
+    .work:nth-child(even) {
+      margin-right: 40px;
+    }
+    
+    .work img {
+      width: 100%;
+      border: 0 none;
+      opacity: 0.8;
+    }
+    
+    .work h3 {
+      /* position: absolute; */
+      /* bottom: 17px; */
+      width: 100%;
+      padding: 8px;
+      /* margin-bottom: 0; */
+      font-weight: 300;
+      line-height: 30px;
+      color: #fff;
+      text-align: center;
+      background: #00838f ;
+      border-bottom: 0;
+    }
+    .myRow{
+      margin: 5px 100px;
+    }
+  
+  
+  
+    
+    #auth-image {
+      width: 150px; 
+    }
+  
+    
+    
+    label,
+    input[type=text],
+    input[type=email],
+    textarea {
+      /* display: block; */
+      color: black;
+      font-size: 20px;
+    }
+    
+    input[type=text],
+    input[type=email],
+    textarea {
+      height: 35px;
+      padding: 0 10px;
+      font-size: 14px;
+      border: 2px solid #ddd;
+     
+  
+    }
+    
+    textarea {
+      height: 150px;
+    }
+    #name, #email, textarea{
+  border: 2px solid #ddd;
+  background: white;
+  color: black;
+  
+  
+    }
+    
+    input[type=submit] {
+      padding: 10px 20px;
+      font-size: 18px;
+      color: #fff;
+      cursor: pointer;
+      background: #00838f;
+      border: 1px solid #ddd;
+    }
+    
+  
+  .crdImg{
+    padding: 10px
+  }
+     #contact-form{
+      margin-top: 10px;
+           float: left;
+           width: 80%;
+           padding: 10px
+  
+     }
+  
+  .navImg{
+    width: 100%;
+    height: 100%;
+  }
