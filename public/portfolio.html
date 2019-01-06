@@ -13,122 +13,108 @@
 
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-                <nav class="nav-extended">
-                        <nav class="nav-wrapper  cyan darken-3">
+                <nav class="nav-wrapper white">
                                 <div class="container">
-
-                                        <a href="#" class="brand-logo center">Portfolio<br>
-                                        </a>
+                                        <div class="brand-logo center">                                       
+                                                <img class="logoImg" src="assets/images/SadiyaLogo.png" alt="logo">
+                                        </div>
                                         <!--toggler for mobile menu, triggers the sidebar-->
                                         <a href="#" class="sidenav-trigger" data-target="mobile-links">
-
-                                   <i class="material-icons">menu</i></a>
-
+                                                <i class="material-icons">menue</i></a>
                                         <!--will hide on medium screen size -->
                                         <ul class="left hide-on-med-and-down">
+                                                <li><a href="portfolio.html">Portfolio</a></li>
                                                 <li><a href="index.html">About</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="contact.html">Contact </a></li>
                                         </ul>
-                                        <ul class="right hide-on-med-and-down">
-                                        <li><a href="https://github.com/SadiyaJiru/" target="_blank">GitHub
-                                        </a></li>
-                                        <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank">LinkedIn</a></li>
                                         
-                                </ul>
+        
                                 </div>
                         </nav>
-                </nav>
-                <p align="center">Click on any title to view the site</p>
-
-        <!--Only show on mobile view-->
-        <ul class="sidenav" id="mobile-links">
-                <li>
-                        <div class="user-view">
-                                <div class="background">
-                                        <img class="navImg" src="assets/images/Background/pineapple.png">
-                                </div>
-                                <a href="#user"><img class="circle" src="assets/images/Headshot.jpg"></a>
-                                <a href="#name"><span class="white-text name">Sadiya Jiru</span></a>
-                                <a href="#email"><span class="white-text email">SadiyaJiru@gmail.com</span></a>
-                <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="material-icons">tag_faces</i>Connect
-                                on LinkedIn</a></li>
-                <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="material-icons">cloud</i>GitHub
-                                Profile</a></li>
-
-
-                <li><a class="subheader"><hr></a></li>
-                <!-- <li><a href="portfolio.html"><i class="material-icons">collections</i>Click to view portfolio</a></li> -->
-                <!-- <li><a href="contact.html">Contact</a></li> -->
-                <li><a href="index.html"><i class="material-icons">home</i>About</a></li>
-
-                <li><a href="contact.html"><i class="material-icons">contact_mail</i>Send me a message</a></li>
-        </ul>
-
+                <!--Only show on mobile view-->
+                <ul class="sidenav" id="mobile-links">
+                        <li>
+                                <div class="user-view">
+                                                <img class="logoImg" src="assets/images/SadiyaLogo.png" alt="logo">
+                                       
+                                        <!-- <li><a href="#name"><span class="black-text name">Sadiya Jiru</span></a></li>
+                                       <li><a href="#email"><span class="black-text email">SadiyaJiru@gmail.com</span></a></li> -->
+                                       <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-linkedin"></i>Connect
+                                        on LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-github-square fa-2x"></i>GitHub
+                                        Profile</a></li>
+                        
+        
+                        <li><a class="subheader"><hr></a></li>
+                        <li><a href="portfolio.html"><i class="material-icons">collections</i>View portfolio</a></li>
+                        <li><a href="contact.html"><i class="material-icons">contact_mail</i>Send me a message</a></li>
+                        <li><a href="home.html"><i class="material-icons">home</i>Home</a></li>
+                        <li><a href="index.html"><i class="material-icons">account_circle</i>About</a></li>
+                      
+                         
+                </ul>
+        
         <div class="container">
-                <section class="main-container">
-
-                        <!-- <div class="container"> -->
-                        <div class="work myRow row">
-                                <div class="col-sm">
-                                        <div>
-                                                <a href="https://github.com/SadiyaJiru/bamazon/" target="_blank">
+                <section class="main-container ">
+                                <div class="work myRow row ">
+                                                <div class="col s4">  <a href="https://github.com/SadiyaJiru/bamazon/" target="_blank">
                                                         <img src="assets/images/mysql.png" alt="Bamazon Node JS MySQL">
                                                         <h3>Bamazon Made with Node.js & MySQL</h3>
-                                        </div>
-                                        <div>
-                                                <a href="https://findamatch.herokuapp.com" target="_blank">
-                                                        <img src="assets/images/heroku.png" alt="Friend Finder App">
+                                                
+                                                </div>
+                                                <div class="col s4"> <a href="https://findamatch.herokuapp.com" target="_blank">
+                                                        <img src="assets/images/friendFinder.png" alt="Friend Finder App">
                                                         <h3>Friend Finder</h3>
-                                        </div>
-                                        <div>
-                                                <a href="https://hibbarcd.github.io/Project1/" target="_blank">
-                                                        <img src="assets/images/Project.png" alt="News and Views App">
-                                                        <h3>NEWS & VIEWS</h3>
-                                        </div>
+                                                </div>
+                                                <div class="col s4">                                                                <a href="https://hibbarcd.github.io/Project1/" target="_blank">
+                                                                        <img src="assets/images/news&views.png" alt="News and Views App">
+                                                                        <h3>NEWS & VIEWS</h3>
+                                                        </div>
+                                              </div>
 
-                                        <div>
-                                                <a href="https://sadiyajiru.github.io/TriviaGame/" target="_blank">
-                                                        <img src="assets/images/trivia.jpg" alt="Trivia Game">
+                                              <div class="work myRow row">
+                                                        <div class="col s4">    
+                                                        <a href="https://sadiyajiru.github.io/TriviaGame/" target="_blank">
+                                                        <img src="assets/images/triviaGame.png" alt="Trivia Game">
                                                         <h3>Trivia Game</h3>
-                                        </div>
+                                                        </div>
 
-                                </div>
-                        </div>
-                        <div class="work myRow row">
-                                <div class="col-sm">
-
-                                        <div>
-                                                <a href="https://mprscraper.herokuapp.com/" target="_blank">
-                                                        <img src="assets/images/MPRNews.png" alt="MPR News Scraper">
-                                                        <h3>MPR News Scraper</h3>
-                                        </div>
-
-                                        <div>
-                                                <a href="https://sadiyajiru.github.io/GifTastic/" target="_blank">
-                                                        <img src="assets/images/gif.png" alt="Gif Tastic App">
-                                                        <h3>Gif Tastic</h3>
-                                        </div>
-                                        <div>
-                                                <a href="https://github.com/SadiyaJiru/liri-node-app/" target="_blank">
-                                                        <img src="assets/images/node.png" alt="Node JS App">
-                                                        <h3>LIRI (Node.JS App)</h3>
-                                        </div>
-                                        <div>
-                                                <a href=" https://sadiyajiru.github.io/90s-memory/" target="_blank">
-                                                        <img src="assets/images/90snicktoons.jpg" alt="(90s Cartoon React Game">
-                                                        <h3>90s Cartoon Memory game (React.js)</h3>
-                                        </div>
-
-                                </div>
-                        </div>
-        </div>
-
-
+                                                        <div class="col s4"> 
+                                                                        <a href="https://mprscraper.herokuapp.com/" target="_blank">
+                                                                                <img src="assets/images/MPRNews.png" alt="MPR News Scraper">
+                                                                                <h3>MPR News Scraper</h3>
+                                                        </div>
+                                                        <div class="col s4"> 
+                                                                        <a href="https://sadiyajiru.github.io/GifTastic/" target="_blank">
+                                                                                <img src="assets/images/gif.png" alt="Gif Tastic App">
+                                                                                <h3>Gif Tastic</h3>
+                                                                </div>
+                                                      </div>
+                                                      <div class="work myRow row">
+                                                                <div class="col s4">    
+                                                                                <a href="https://github.com/SadiyaJiru/liri-node-app/" target="_blank">
+                                                                                        <img src="assets/images/node.png" alt="Node JS App">
+                                                                                        <h3>LIRI (Node.JS App)</h3>
+                                                                </div>
+        
+                                                                <div class="col s4"> 
+                                                                                <a href=" https://sadiyajiru.github.io/90s-memory/" target="_blank">
+                                                                                        <img src="assets/images/90snicktoons.jpg" alt="(90s Cartoon React Game">
+                                                                                        <h3>90s Cartoon Memory game (React.js)</h3>
+                                                                </div>
+                                                                <div class="col s4"> 
+                                                                                <a href="https://peek-2fb5b.firebaseapp.com/" target="_blank">
+                                                                                        <img src="assets/images/Peek!.png"alt="Peek App">
+                                                                                        <h3>PEEK!</h3>
+                                                                        </div>
+                                                              </div>
+                 
         </section>
         </div>
 

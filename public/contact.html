@@ -21,145 +21,81 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
 
   <body>
-    <nav>
-      <nav class="nav-wrapper  cyan darken-3">
-        <div class="container">
-          <a href="#!" class="brand-logo center">Contact<br /> </a>
+      <nav class="nav-wrapper white">
+          <div class="container">
+                  <div class="brand-logo center">                                       
+                          <img class="logoImg" src="assets/images/SadiyaLogo.png" alt="logo">
+                  </div>
+                  <!--toggler for mobile menu, triggers the sidebar-->
+                  <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                          <i class="material-icons">menue</i></a>
+                  <!--will hide on medium screen size -->
+                  <ul class="left hide-on-med-and-down">
+                          <li><a href="portfolio.html">Portfolio</a></li>
+                          <li><a href="index.html">About</a></li>
+                          <li><a href="home.html">Home </a></li>
+                  </ul>
+                  
 
-          <!-- toggler for mobile menu, triggers the sidebar -->
-          <a href="#" class="sidenav-trigger" data-target="mobile-links">
-            <i class="material-icons">menu</i></a
-          >
-          <!-- will hide on medium screen size -->
-          <ul class="left hide-on-med-and-down">
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <!-- <li><a href="contact.html">Contact</a></li> -->
-            <li><a href="index.html">About</a></li>
-          </ul>
-          <ul class="right hide-on-med-and-down">
-            <li>
-              <a href="https://github.com/SadiyaJiru/" target="_blank"
-                >GitHub
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </nav>
-    <br />
-
-    <!-- Only show on mobile view -->
-    <ul class="sidenav" id="mobile-links">
-      <li>
-        <div class="user-view">
-          <div class="background">
-            <img
-              class="navImg"
-              src="assets/images/Background/pineapple.png"
-            /><br />
           </div>
+  </nav>
+<!--Only show on mobile view-->
+<ul class="sidenav" id="mobile-links">
+  <li>
+          <div class="user-view">
+                          <img class="logoImg" src="assets/images/SadiyaLogo.png" alt="logo">
+                 
+                  <!-- <li><a href="#name"><span class="black-text name">Sadiya Jiru</span></a></li>
+                 <li><a href="#email"><span class="black-text email">SadiyaJiru@gmail.com</span></a></li> -->
+  <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-linkedin"></i>Connect
+                  on LinkedIn</a></li>
+  <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-github-square fa-2x"></i>GitHub
+                  Profile</a></li>
+                  
 
-          <a href="#user"
-            ><img class="circle" src="assets/images/Headshot.jpg"
-          /></a>
-          <a href="#name"><span class="white-text name">Sadiya Jiru</span></a>
-          <a href="#email"
-            ><span class="white-text email">SadiyaJiru@gmail.com</span></a
-          >
+  <li><a class="subheader"><hr></a></li>
+  <li><a href="portfolio.html"><i class="material-icons">collections</i>View portfolio</a></li>
+  <li><a href="contact.html"><i class="material-icons">contact_mail</i>Send me a message</a></li>
+  <li><a href="home.html"><i class="material-icons">home</i>Home</a></li>
+  <li><a href="index.html"><i class="material-icons">account_circle</i>About</a></li>
 
-          <li>
-            <a
-              href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/"
-              target="_blank"
-              ><i class="material-icons">tag_faces</i>Connect on LinkedIn</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/SadiyaJiru/" target="_blank"
-              ><i class="material-icons">cloud</i>GitHub Profile</a
-            >
-          </li>
 
-          <li>
-            <a class="subheader"><hr></a>
-          </li>
-          <li>
-            <a href="portfolio.html"
-              ><i class="material-icons">collections</i>Click to view
-              portfolio</a
-            >
-          </li>
-          <li>
-            <a href="index.html"><i class="material-icons">home</i>About</a>
-          </li>
-        </div>
-      </li>
-    </ul>
+   
+</ul>
 
     <div id="main-container" class="container">
-        <!-- <img
-          src="assets/images/Background/waterfall.jpg" id="waterfallImg"alt="Sadiya jiru"/> -->
-          <!-- <div class="card small" > -->
-                      
-        <!-- <div id="contact-form">
-          <form action="/submit" method="post">
-            <label for="name">First Name</label><br />
-            <input type="text" id="name" name="firstName" placeholder="" />
-
-            <label for="name">Last Name</label><br />
-            <input type="text" id="name" name="lastName" placeholder="" />
-
-            <label for="email">Email</label><br />
-            <input type="text" id="email" name="email" placeholder="" /><br />
-            <small id="emailHelp" class="form-text text-muted"
-              >I'll never share your email without permission.</small
-            ><br />
-
-            <label for="message">Message</label><br />
-            <textarea
-              id="message"
-              name="message"
-              required="required"
-            ></textarea>
-            <br />
-
-            <input type="submit" onclick="myFunction()" />
-          </form>
-        </div> -->
-    
-
+  
                        <div class="col s12 m7">
-                                <h2 class="header" style="font-size: 20px">Feel free to reach out to me, send feedback, or comments & I will reply to
-                                                the email provided <i class="material-icons">message</i> </h2>
-                                <div class="card horizontal">
-                                  <div class="card-image">
-                                    <img src="assets/images/portrait.JPG">
-                                  </div>
-                                  <div class="card-stacked">
-                                                <div id="contact-form" style="width: 70%">
+                                <h2 class="header" >
+                                  Let's Connect!                                    
+                                      <a href="https://github.com/SadiyaJiru/" target="_blank"><i class="fab fa-github-square"></i>
+                                              </a>
+                                              <a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                              
+                                      </h2>
+                                  
+                                                <div id="contact-form" style="width: 50%">
                                                                 <form action="/submit" method="post">
-                                                                  <input type="text" id="name" name="firstName" placeholder="First Name"/>
-                                                      
-                                                                  <input type="text" id="name" name="lastName" placeholder="Last Name"/>
-                                                      
-                                                                  <input type="text" id="email" name="email" placeholder="Email"/><br/>
+                                                                  <label for="message"></label>First Name*</label><br />
+
+                                                                  <input type="text" id="name" name="firstName" alt="First Name"/>
+                                                                  <label for="message"></label>Last Name*</label><br />
+
+                                                                  <input type="text" id="name" name="lastName" alt="Last Name"/>
+                                                                  <label for="message"></label>Email*</label><br />
+
+                                                                  <input type="text" id="email" name="email" alt="Email"/><br/>
                                                                   <!-- <small id="emailHelp" class="form-text text-muted"
                                                                     >I'll never share your email without permission.</small
                                                                   ><br /> -->
                                                       
-                                                                  <label for="message"></label>Message</label><br />
+                                                                  <label for="message"></label>Message*</label><br />
                                                                   <textarea
                                                                     id="message"
                                                                     name="message"
@@ -171,14 +107,12 @@
                                                                   <br>
                                                                   <ul>
                                                                       <li>
-                                                                       SadiyaJiru@gmail.com</li>
-                                                                    </li>
+                                                                          <a href="mailto:sadiyajiru@gmail.com">Or Email Me Directly <i class="  far fa-envelope"></i></a>                                                                    </li>
                                                                
                                                                 </ul>
+                                                                
                                                                 </form>
                                                               </div>
-                                  </div>
-                                </div>
                               </div>
 </div>
 
