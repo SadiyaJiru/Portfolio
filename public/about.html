@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+        <meta charset="UTF-8">
+        <title>About | Sadiya Jiru </title>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--From GoogleFonts-->
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+                <nav class="nav-wrapper white">
+                                <div class="container">
+                                        <div class="brand-logo center">                                       
+                                                <img class="logoImg" src="assets/images/SadiyaLogo.png" alt="logo">
+                                        </div>
+                                        <!--toggler for mobile menu, triggers the sidebar-->
+                                        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                                                <i class="material-icons">menue</i></a>
+                                        <!--will hide on medium screen size -->
+                                        <ul class="left hide-on-med-and-down">
+                                                <li><a href="portfolio.html">Portfolio</a></li>
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="contact.html">Contact </a></li>
+                                        </ul>
+                                        
+        
+                                </div>
+                        </nav>
+                <!--Only show on mobile view-->
+                <ul class="sidenav" id="mobile-links">
+                        <li>
+                                <div class="user-view">
+                                                <img class="logoImg" src="assets/images/SadiyaLogo.png" alt="logo">
+                                       
+                                        <!-- <li><a href="#name"><span class="black-text name">Sadiya Jiru</span></a></li>
+                                       <li><a href="#email"><span class="black-text email">SadiyaJiru@gmail.com</span></a></li> -->
+                                       <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-linkedin"></i>Connect
+                                        on LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-github-square fa-2x"></i>GitHub
+                                        Profile</a></li>
+                        
+        
+                        <li><a class="subheader"><hr></a></li>
+                        <li><a href="portfolio.html"><i class="material-icons">collections</i>View portfolio</a></li>
+  <li><a href="contact.html"><i class="material-icons">contact_mail</i>Send me a message</a></li>
+  <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+  <li><a href="about.html"><i class="material-icons">account_circle</i>About</a></li>
+
+        
+                         
+                </ul>
+        
+
+        <div  class="container">
+         <section class="main-container">
+
+
+
+
+                <div class="paraContainer" >
+                
+                        <h2>About Me</h2>
+                        
+                        <p class="flow-text">                       
+                         <blockquote>
+                        I am a passionate, action driven and resourceful young professional trying
+                        to learn as much as I can about the vast world of technology. I am also a 
+                        technically skilled Full Stack Web Developer and former Minnesota Army National Guard member. 
+                        <!-- <blockquote> -->
+                        I found my passion for web development during my undergrad career Augsburg
+                        University where I studied Computer Science. Whether it’s building something
+                        from scratch or improving existing products, I enjoy the freedom of being creative.
+                        My experience with web development involves demonstrated proficiency with
+                        HTML/CSS, JavaScript/JQuery,JSON, Ajax, MySQL and much more. I graduated from the 
+                        University of Minnesota Coding Bootcamp to further enhance my web development skills.
+                        I have also worked for the MN State Government where I was skillful in providing quality
+                        tier-1 technical support and customer service. With the proven ability to effectively 
+                        prioritize incoming tickets, requests, and work orders. 
+                        When I am not on my computer I enjoy spending time with my family and friends, traveling,
+                        doing yoga, drinking coffee, and watching Life Time Movies that seem to all have the same plot.<br>
+                </p>
+
+                <div id="headshot"  class="center-align">
+                        <a href="#user"><img class="circle" src="assets/images/Headshot.jpg" id="auth-image"  class="center-align"alt="Sadiya Jiru">
+                        </a>
+                </div>
+                <a class="waves-effect waves-light btn modal-trigger   orange" href="assets/images/Sadiya_Jiru Resume.pdf">Click for Resume</a>
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                  <!-- <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
+                  </div> -->
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+        </div>
+        </div>
+
+        <footer>
+                <div class="container">
+                        Copyright &copy;2018 Sadiya Jiru
+                        <!--Page view counter-->
+                        <div style="text-align:center;">
+                        </div>
+        </footer>
+
+
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+        <script> src = "https://code.jquery.com/jquery-3.3.1.min.js"</script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+                $(document).ready(function () {
+                        // { passive: true }
+                        //grabs  the sidenav-trigger
+                        $('.sidenav').sidenav();
+                        $('.modal').modal();
+                });
+        
+      
+        </script>
+</body>
+
+</html>
