@@ -1,137 +1,177 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE <!DOCTYPE html>
+<html>
 <head>
-        <meta charset="UTF-8">
-        <title>Home | Sadiya Jiru </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sadiya Jiru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!--From GoogleFonts-->
-<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="icon" href="../public/assets/images/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
-
 <body>
-                <div class="jumbotron">
-                                <nav class="nav-wrapper white">
-                                            
-                                                
-                                        <!--toggler for mobile menu, triggers the sidebar-->
-                                        <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                                                <i class="material-icons">menue</i></a>
-                                        <!--will hide on medium screen size -->
-                                        <ul class="left hide-on-med-and-down">
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="contact.html">Contact </a></li>
-                                                <li><a href="travel.html">Travel Blog </a></li>
-                                        </ul>               
-                        </nav>
-                                <img class="logoImg" src="assets/images/SadiyaLogo.png" alt="logo">
-                               
-                              </div>
-        <!--Only show on mobile view-->
-        <ul class="sidenav" id="mobile-links">
-                <li>
-                        <div class="user-view">
-                                        <img class="logoImg" src="assets/images/SadiyaLogo.png" alt="logo">
-                               
-                                <!-- <li><a href="#name"><span class="black-text name">Sadiya Jiru</span></a></li>
-                               <li><a href="#email"><span class="black-text email">SadiyaJiru@gmail.com</span></a></li> -->
-                               <li><a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank" alt="LinkedIn"><i class="fab fa-linkedin"></i>Connect
-                                on LinkedIn</a></li>
-                <li><a href="https://github.com/SadiyaJiru" target="_blank" alt="GitHub"><i class="fab fa-github-square fa-2x"></i>GitHub
-                                Profile</a></li>
-                
-
-                <li><a class="subheader"><hr></a></li>
-                <li><a href="portfolio.html"><i class="material-icons">collections</i>View portfolio</a></li>
-                <li><a href="contact.html"><i class="material-icons">contact_mail</i>Send me a message</a></li>
-                <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
-                <li><a href="about.html"><i class="material-icons">account_circle</i>About</a></li>
-                <li><a href="travel.html"><i class="material-icons">airplanemode_active</i>Travel Blog</a></li>
-
-                 
+    <header>
+        <img src="img/logo.png" alt="Sadiya Jiru Logo" class="logo">
+    <nav>
+        <ul>
+            <li><a href= "#home-hero">Home</a></li>
+            <li><a href="#home-about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href = "#portfolio" href="#">Projects</a>
         </ul>
+    </nav>
+</header>
+<section class="home-hero" id="home-hero">
+    <div class="container">
+    <h1 class="title">Hi, my name is Sadiya Jiru
+         <span>& I am a full stack web developer</span>
+    </h1>
+<a href="#portfolio"class="button button-accent seeWorkBtn">See my work</a>
+</div>
+</section>
+
+<div class="container">
+
+<section class="home-about" id="home-about">
+    <div class="home-about-textbox">
+        <h1>Who I am</h1>
+        <p> I am a creative spirit which makes me many things, a <strong>Yogi, Web Developer, Hiker, travler & lover of all things positive.</strong> </p>
+            <p>I love building interactive and beautiful websites using the latest technologies, read about my coding expirence here & Checkout
+             my portfolio to see some projects I am working on. Soon I will be adding blogs about my travels and some helpful tips and tutorials 
+             for beginners to web development.
+        </p>
+    </div>
+</section>
+</div>
+
+<section class="portfolio" id="portfolio">
+    <h1> Some of my work</h1>
+    <!--Portfolio item 1-->
+    <figure class="port-item"><img src="./assets/images/90's Cartoons.png" alt="portfolio item">
+    <figcaption class="port-description">
+        <p>Project Title</p>
+        <a href="" class="button button-accent button-small">Project Details</a>
+    </figcaption>
+</figure>
+    <!--Portfolio item 2-->
+    <figure class="port-item"><img src="./assets/images/peek.jpg" alt="portfolio item">
+        <figcaption class="port-description">
+            <p>Project Title</p>
+            <a href="" class="button button-accent button-small">Project Details</a>
+        </figcaption>
+    </figure>
+        <!--Portfolio item 3-->
+        <figure class="port-item"><img src="./assets/images/news&views.png" alt="portfolio item">
+            <figcaption class="port-description">
+                <p>Project Title</p>
+                <a href="" class="button button-accent button-small">Project Details</a>
+            </figcaption>
+        </figure>
+            <!--Portfolio item 4-->
+    <figure class="port-item"><img src="./assets/images/node.png" alt="portfolio item">
+        <figcaption class="port-description">
+            <p>Project Title</p>
+            <a href="" class="button button-accent button-small">Project Details</a>
+        </figcaption>
+    </figure>
+        <!--Portfolio item 5-->
+        <figure class="port-item"><img src="./assets/images/mysql.png" alt="portfolio item">
+            <figcaption class="port-description">
+                <p>Project Title</p>
+                <a href="" class="button button-accent button-small">Project Details</a>
+            </figcaption>
+        </figure>
+            <!--Portfolio item 6-->
+    <figure class="port-item"><img src="./assets/images/MPRNews.png" alt="portfolio item">
+        <figcaption class="port-description">
+            <p>Project Title</p>
+            <a href="" class="button button-accent button-small">Project Details</a>
+        </figcaption>
+    </figure>
+</section>
+<!--Call To Action-->
+<section class="class cta" id="contact">
+        <div class="container">
+                <h1 class="title title-cta">Like what you see?
+                     <span>Let's work together</span>
+                </h1>
+            <!-- <a href="" class="button button-dark">Contact Me</a> -->
+            <div id="contact-form" style="width: 50%">
+                    <form action="/submit" method="post">
+                      <label for="message"></label>First Name*</label><br />
+
+                      <input type="text" id="name" name="firstName" alt="First Name"/>
+                      <label for="message"></label>Last Name*</label><br />
+
+                      <input type="text" id="name" name="lastName" alt="Last Name"/>
+                      <label for="message"></label>Email*</label><br />
+
+                      <input type="text" id="email" name="email" alt="Email"/><br/>
+                      <!-- <small id="emailHelp" class="form-text text-muted"
+                        >I'll never share your email without permission.</small
+                      ><br /> -->
+          
+                      <label for="message"></label>Message*</label><br />
+                      <textarea
+                        id="message"
+                        name="message"
+                        required="required"
+                      ></textarea>
+                      <br />
+                      <input class="button button-dark" type="submit" onclick="myFunction()" />
+                      <br>
+                      <!-- <ul>
+                              <a href="mailto:sadiyajiru@gmail.com"> Email Me Directly<i class="far fa-envelope"></i></a>                                                                    </li>
+                   
+                    </ul> -->
+                    </form>
+                  </div>
+                  <div class="button button-dark" onclick="topFunction()" id="upBtn" title="Go to top">Back To Top <i class="fas fa-arrow-up"></i>
+                </div>
+
+            </div>
+
+</section>
 
 
-        <div  class="container">
-         <section class="main-container">
+
+<footer class="center">
+         <ul>
+             <i class="far fa-envelope"></i><a href="mailto:sadiyajiru@gmail.com">SadiyaJiru@gmail.com</a> <br>
+             <a href="https://github.com/SadiyaJiru/" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+             <a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+       </li>
+       </ul>
+       <h3> Copyright &copy;2018 Sadiya Jiru </h3>
+</footer>
+<script src="/js/index.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script> src = "https://code.jquery.com/jquery-3.3.1.min.js"</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 
-
-
-                <div class="paraContainer" >
-                        <div class="card horizontal myCard">
-<!-- Currently I am working on starting a non profit organization in Ethiopia where we build schools in the rural town of Adaba where I was born.  -->
-                        
-                              <div class="welcomeContent"><h2 class="welcome">  Welcome!</h2>
-                                <p class="flow-text"> 
-                                      My name is Sadiya Jiru. I am a creative spirit which makes me many things, a Yogi, Web Developer, Hiker, travler & lover of all things positive. 
-                                      I love building interactive and beautiful websites using the latest technologies, read about my <a href="about.html"> coding expirence here</a>
-                                     & Checkout my <a href="portfolio.html"> portfolio</a> to see some projects I am working on. Soon I will be adding blogs about my travels and some helpful tips and tutorials for beginners to web development.
-
-
-
-                               
-                        </p>
-                        <div class="card-image">
-                                        <img src="assets/images/Hiking.jpg" alt = "Sadiya hiking">
-                                        <ul class="center">
-                                                <a href="https://github.com/SadiyaJiru/" target="_blank"><i class="fab fa-github-square fa-2x"></i>
-                                                        </a>
-                                                        <a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                                                </ul>
-                                      </div>
-                                    
-                              </div>
-                           
-                        </div>
-               
-
-        
-        </section>
-
-
-        </div>
-        </div>
-
-        <footer>
-                <div class="container">
-                        Copyright &copy;2018 Sadiya Jiru
-                        <!--Page view counter-->
-                        <div style="text-align:center;">
-                        </div>
-        </footer>
-
-
-
-
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-        <script> src = "https://code.jquery.com/jquery-3.3.1.min.js"</script>
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-        <script>
-                $(document).ready(function () {
-                        // { passive: true }
-                        //grabs  the sidenav-trigger
-                        $('.sidenav').sidenav();
-                        $('.modal').modal();
-                });
-        
-      
-        </script>
+<script>
+    $(Document).ready(function(){
+        // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        document.getElementById("upBtn").style.display = "block";
+      } else {
+        document.getElementById("upBtn").style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    
+    })
+    
+    </script>
 </body>
-
 </html>
