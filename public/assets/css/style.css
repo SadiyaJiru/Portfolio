@@ -18,11 +18,11 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-
+word-spacing: 1.5em;
 }
 nav li {
   display: inline-block;
-  margin: 1em;
+  /* margin: 1em; */
   /* padding: 0;
     list-style: none; */
 }
@@ -30,14 +30,14 @@ nav a {
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   /*gives us more room for the clickable link for mobile*/
-  padding: 0.5em;
-  color: #fff;
+  padding: 0.6em;
+  color:#232323;
 }
 nav a:hover,
 nav a:focus {
-  color: #ddd;
+  color:rgb(231, 137, 160);;
 }
 @media (min-width: 60rem) {
   .logo {
@@ -45,11 +45,17 @@ nav a:focus {
   }
   nav {
     float: right;
+    margin-right: 15em;
+  }
+  nav a{
+    font-size: 1.2rem;
+
   }
 }
 img {
   /*The max width is the size of their container*/
-  max-width: 95%
+  max-width: 95%;
+  height: 20em;
   /* border 16rem solid red; */
   
 }
@@ -69,29 +75,38 @@ clear: both;
 }
 /*Typogrophy, generals*/
 h1 {
-  font-weight: 300;
-  font-size: 2.5rem;
+  font-weight: 800;
+  font-size: 1.2rem;
   margin-top: 0;
 }
 p{
     padding: 0%;
     line-height: 1.5;
+    
 }
 p:last-of-type{
     margin-bottom: 0;
 }
+h2{
+  color: rgb(231, 137, 160);;
+  font-size: 1.5rem;
+  font-weight: 1000;
+  padding-top: 1em;
+  /* margin-left: 3em; */
+
+}
 .title {
-  font-size: 2.5rem;
-  color: black;
-  margin-bottom: 1.5em;
+  color: #232323;
+  margin-bottom: 0.5em;
   font-weight: 900;
-  margin-top: 1em;
+  margin-top: 1.5em;
+  padding: 1em;
 }
 .title span {
   font-weight: 300;
   display: block;
   font-size: 0.7em;
-  color: black;
+  color: #232323;
 }
 .title-cta{
     /*0 on the top and left/right*/
@@ -106,17 +121,17 @@ p:last-of-type{
         line-height: 1.4;
     }
   .title {
-    font-size: 3.75rem;
-  }
+    font-size: 2.3rem;
+    }
 }
 .button {
-  /*ensures padding is added to the height*/
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: .85rem;
   text-decoration: none;
   text-transform: uppercase;
-  border: solid;
+  border: solid .1em;
   padding: 0.5em 1.75em;
+  background-color: rgb(231, 137, 160);;
 }
 /*when font gets bigger so does the button*/
 @media (min-width) {
@@ -129,13 +144,13 @@ p:last-of-type{
     font-weight: 700;
 }
 .button-accent {
-  color: #00ff6c;
-  border-color: #00ff6c;
+  color: white;
+  border-color: #232323;
 }
 .button-accent:hover,
 .button-accent:focus {
-  background: #00ff6c;
-  color: #232323;
+  background: #232323;
+  color: rgb(231, 137, 160);
 }
 /*Button for CTA**/
 .button-dark {
@@ -145,14 +160,14 @@ p:last-of-type{
   .button-dark:hover,
   .button-dark:focus {
     background: #232323;
-    color: #00ff6c
+    color: rgb(231, 137, 160);
     ;
   }
 /* Home Hero*/
 .home-hero {
-  background-image: url("../images/Background/background-books-bookshelves-1193603.jpg");
+  background-image: url("../images/Background/pexels-photo-434337.jpeg");
   background-size: cover;
-  padding: 10em 0;
+  padding: 8em 0;
   background-position: center;
   color: #fff;  
       
@@ -161,6 +176,7 @@ p:last-of-type{
 /*If the window hits less than 980px then make these changes, the Hero Image will disapear*/
 @media (min-width: 60rem) {
   .home-hero {
+    /* height: 100vh; */
     height: 100vh;
     padding-top: 35vh;
   }
@@ -174,21 +190,20 @@ p:last-of-type{
   width: 100vw;
   /*container is 95% 5% left for left/right*/
   margin-left: -2.5%;
-  outline: 2px solid #00ff6c;
+  outline: 2px solid rgb(231, 137, 160);;
   outline-offset: -2.5em;
   color: #ffffff;
   position: relative;
 }
 .home-about-textbox h1 {
-  color: #00ff6c;
+  color: rgb(231, 137, 160);;
   position: absolute;
-  /*trick to center*/
-  /**/
   left: 50%;
   transform: translateX(-50%);
-  top: 1.0rem;
+  top: 1.5rem;
   background: #232323;
-  padding: 0;
+  padding: 0px;
+  font-size: 2rem;
 }
 @media(min-width:25rem){
     h1{
@@ -204,26 +219,34 @@ p:last-of-type{
         font-size: 2.5rem;
     }
     .home-about{
-        background-image: url("../images/Background/Hiking.jpg");
-        background-size: cover;
-        padding-bottom: 20em;           
+        background-image: url("../images/Background/IMG_2204.JPG");
+       background-size:contain; 
+                padding-bottom: 20em; 
+                background-position-x: right;
+                background-repeat: no-repeat;
     }
+    #hikingImg{
+     width: 20em;
+      height: 20em; 
+      float: left;
+    } 
     .home-about-textbox {
         width: 50%;
         padding: 5em;
         outline-offset: -2.75em;
-        margin-left: -2.5%;
+        margin-left: 1.5%;
         top: -5em;
         text-align: left;
         box-shadow: 0 0 4em 0 rgba(0,0,0,.5);
     }
     .home-about-textbox h1{
-        top: .4em;
-        left: 8.25rem;
+      top: 0.72em;
+      left: 8.25rem;
         transform: translateX(0);
         text-transform: uppercase;
         /* padding: 0 .325em; */
     }
+    
 }
 
 /*Margin from the top section*/
@@ -289,7 +312,7 @@ padding-bottom: 1em;
 
 /*Call to Action CTA*/
 .cta{
-    background-color: #00ff6c;
+    background-color: rgb(231, 137, 160);;
     padding: 5em 0;
 }
 
@@ -315,7 +338,7 @@ footer{
       height: 20%;
     }
     input[type=submit] {
-      background: #00ff6c;
+      background: rgb(231, 137, 160);;
       color: #232323;
       margin-top: 2em;
       margin-left: 3.5em;
@@ -329,7 +352,7 @@ footer{
     @media(min-width:60rem){
       #contact-form{
         margin-top: -8em;
-    margin-left: 15%;
+    margin-left: 20.45%;
     padding: 6em;
       }
       /* #contact-form ul{
@@ -366,9 +389,31 @@ footer{
     
     /* input[type=submit]:hover  {
       background: #232323;
-      color: #00ff6c
+      color: rgb(231, 137, 160);
       ;
     } */
     #upBtn:hover {
       background-color: #555; /* Add a dark-grey background on hover */
     }
+    .typewriter h1 {
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    /* @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+    } */
