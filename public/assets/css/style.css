@@ -18,7 +18,7 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-word-spacing: 1.5em;
+word-spacing: .5em;
 }
 nav li {
   display: inline-block;
