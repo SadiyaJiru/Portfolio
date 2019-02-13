@@ -37,7 +37,7 @@ nav a {
 }
 nav a:hover,
 nav a:focus {
-  color:rgb(231, 137, 160);;
+  color:rgb(231, 137, 160);
 }
 @media (min-width: 60rem) {
   .logo {
@@ -60,6 +60,7 @@ img {
   
 }
 .container {
+  
   width: 95%;
   max-width: 70em;
   margin: 0 auto;
@@ -76,7 +77,7 @@ clear: both;
 /*Typogrophy, generals*/
 h1 {
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   margin-top: 0;
 }
 p{
@@ -124,27 +125,32 @@ h2{
     font-size: 2.3rem;
     }
 }
+.socialNetwork{
+  padding: 0.5em 1.75em;
+
+}
 .button {
   display: inline-block;
   font-size: .85rem;
   text-decoration: none;
   text-transform: uppercase;
   border: solid .1em;
+  border-radius: 10px;
   padding: 0.5em 1.75em;
   background-color: rgb(231, 137, 160);;
 }
 /*when font gets bigger so does the button*/
-@media (min-width) {
+/* @media (min-width:) {
     .button {
       font-size: 1.5rem;
     }
-  }
+  } */
 .button-small{
     font-size: .8rem;
     font-weight: 700;
 }
 .button-accent {
-  color: white;
+  color: black;
   border-color: #232323;
 }
 .button-accent:hover,
@@ -165,7 +171,7 @@ h2{
   }
 /* Home Hero*/
 .home-hero {
-  background-image: url("../images/Background/pexels-photo-434337.jpeg");
+  background-image: url("../images/Background/pexels-photo-311458.jpeg");
   background-size: cover;
   padding: 8em 0;
   background-position: center;
@@ -207,13 +213,14 @@ h2{
 }
 @media(min-width:25rem){
     h1{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .home-about-textbox h1{
         top: .6em;
         padding: 0 .325em;
     }
 }
+
 @media(min-width: 60rem){
     h1{
         font-size: 2.5rem;
@@ -313,6 +320,7 @@ padding-bottom: 1em;
 /*Call to Action CTA*/
 .cta{
     background-color: rgb(231, 137, 160);;
+
     padding: 5em 0;
 }
 
@@ -320,44 +328,55 @@ padding-bottom: 1em;
 footer{
     background: #232323;
     color: #fff;
-    padding: 1.5rem;
+    padding: 1rem;
+    font-size: 1rem;
 }
 #contact-form{
   margin-top: -2em;
-  margin-left: 7%;
+  margin-left: 1%;
   padding: 1em; 
 }
-/* #contact-form ul{
-  margin-left: -25%;
-} */
+@media only screen and (max-width: 60rem){
+  #contact-form{
+    margin-left: 9%;
+  }
+}
+@media only screen and (max-width: 22rem){
+  #contact-form{
+    margin-left: 3%;
+
+  }
+ 
+
+}
 #name, #email, textarea{
  padding: .5em;
  width:25em;
+ border: #232323;
     } 
   textarea{
       height: 20%;
+      border: #232323;
+
     }
     input[type=submit] {
+      position: sticky;
       background: rgb(231, 137, 160);;
       color: #232323;
       margin-top: 2em;
-      margin-left: 3.5em;
+      margin-right: 3em;
       display: inline-block;
       font-size: 1.1rem;
       text-decoration: none;
       text-transform: uppercase;
-      border: solid;
+      border-radius: 10px;
       padding: 0.5em 1.75em;
     }
     @media(min-width:60rem){
-      #contact-form{
-        margin-top: -8em;
-    margin-left: 20.45%;
-    padding: 6em;
-      }
-      /* #contact-form ul{
+
+      #contact-form ul{
         margin-left: -25%;
-      } */
+      }
       #name, #email, textarea{
         padding: 1.5em;
         width: 40em;
@@ -365,39 +384,48 @@ footer{
         /* textarea{
             height: 20%;
           } */
-          input[type=submit] {
-           
+          input[type=submit] {    
             margin-left: 7.5em;
-         
           }
+    }
+    @media(min-width: 48rem){
+      #contact-form{
+        margin-top: -8em;
+    margin-left: 20%;
+    padding: 6em;
+    }
+    .title-cta{
+      margin-top: -1em;
+      font-size: 3rem;
 
     }
-    #upBtn{
-      bottom: 10px;
-    right: 30px;
-    border: none;
-    outline: none;
-    color: black;
-    background-color: limegreen;
+  }
+     #myBtn{
+    /* bottom: 10px; */
+    /* right: 30px; */
+    /* border: none; */
+    /* outline: none; */
+    /* color: black; */
+    /* background-color: limegreen; */
     cursor: pointer;
     padding: 5px;
-    border: #232323;
+    /* border: #232323; */
     border-radius: 10px;
     font-size: 18px;
+    width: 9em;
+    float: right;
 
     }
     
-    /* input[type=submit]:hover  {
-      background: #232323;
-      color: rgb(231, 137, 160);
-      ;
-    } */
-    #upBtn:hover {
-      background-color: #555; /* Add a dark-grey background on hover */
+ 
+    #myBtn:hover {
+      background-color: #232323; /* Add a dark-grey background on hover */
     }
     .typewriter h1 {
       overflow: hidden; /* Ensures the content is not revealed until the animation */
       /* The typwriter cursor */
+      border-right: .1em solid rgb(231, 137, 160); /* The typwriter cursor */
+
       white-space: nowrap; /* Keeps the content on a single line */
       margin: 0 auto; /* Gives that scrolling effect as the typing happens */
       letter-spacing: .15em; /* Adjust as needed */
@@ -413,7 +441,9 @@ footer{
     }
     
     /* The typewriter cursor effect */
-    /* @keyframes blink-caret {
+    @keyframes blink-caret {
       from, to { border-color: transparent }
-      50% { border-color: orange; }
-    } */
+      50% { border-color: rgb(231, 137, 160); }
+    } 
+
+ 

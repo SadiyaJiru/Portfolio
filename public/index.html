@@ -26,12 +26,15 @@
 
 </header>
 <section class="home-hero" id="home-hero">
-    <div class="container">
+    <div class="container">   
          <div class="typewriter">
-    <h1 class="title">Hi, my name is <strong style="color:teal"> <i><b>Sadiya Jiru</b></i></strong>
+    <h1 class="title">Hi, my name is <strong style="color:rgb(231, 137, 160)"> <i><b>Sadiya Jiru</b></i></strong>
          <span>& I am a full stack web developer</span>
     </h1>
     </div>
+    <ul class="socialNetwork"> <a href="https://github.com/SadiyaJiru/" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/sadiya-jiru-3453b4b7/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+</ul>
 <a href="#portfolio"class="button button-accent seeWorkBtn">See my work</a>
 </div>
 </section>
@@ -134,9 +137,8 @@
                     </ul> -->
                     </form>
                   </div>
-                  <div class="button button-dark" onclick="topFunction()" id="upBtn" title="Go to top">Back To Top <i class="fas fa-arrow-up"></i>
+                  <div class="button button-dark" onclick="topFunction()" id="myBtn" title="Go to top">Back To Top <i class="fas fa-arrow-up"></i>
                 </div>
-
             </div>
 
 </section>
@@ -159,24 +161,22 @@
 
 
 <script>
-    $(Document).ready(function(){
-        // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        document.getElementById("upBtn").style.display = "block";
-      } else {
-        document.getElementById("upBtn").style.display = "none";
-      }
-    }
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-    
-    })
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
     
     </script>
 </body>
