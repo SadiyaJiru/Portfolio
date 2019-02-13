@@ -284,6 +284,11 @@ color: white;
 background: rgba(0, 0, 0, .6);
 padding-bottom: 1em;
 }
+.port-description:hover,
+.port-description:focus {
+  background: #232323;
+  color: #8FBC8F;
+}
 
 .port-description p{
     margin: 0;
