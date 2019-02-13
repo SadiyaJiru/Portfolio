@@ -37,7 +37,7 @@ nav a {
 }
 nav a:hover,
 nav a:focus {
-  color:rgb(231, 137, 160);
+  color:#8FBC8F;
 }
 @media (min-width: 60rem) {
   .logo {
@@ -89,7 +89,7 @@ p:last-of-type{
     margin-bottom: 0;
 }
 h2{
-  color: rgb(231, 137, 160);;
+  color: #8FBC8F;;
   font-size: 1.5rem;
   font-weight: 1000;
   padding-top: 1em;
@@ -137,7 +137,7 @@ h2{
   border: solid .1em;
   border-radius: 10px;
   padding: 0.5em 1.75em;
-  background-color: rgb(231, 137, 160);;
+  background-color: #8FBC8F;;
 }
 /*when font gets bigger so does the button*/
 /* @media (min-width:) {
@@ -156,7 +156,7 @@ h2{
 .button-accent:hover,
 .button-accent:focus {
   background: #232323;
-  color: rgb(231, 137, 160);
+  color: #8FBC8F;
 }
 /*Button for CTA**/
 .button-dark {
@@ -166,7 +166,7 @@ h2{
   .button-dark:hover,
   .button-dark:focus {
     background: #232323;
-    color: rgb(231, 137, 160);
+    color: #8FBC8F;
     ;
   }
 /* Home Hero*/
@@ -196,13 +196,13 @@ h2{
   width: 100vw;
   /*container is 95% 5% left for left/right*/
   margin-left: -2.5%;
-  outline: 2px solid rgb(231, 137, 160);;
+  outline: 2px solid #8FBC8F;;
   outline-offset: -2.5em;
   color: #ffffff;
   position: relative;
 }
 .home-about-textbox h1 {
-  color: rgb(231, 137, 160);;
+  color: #8FBC8F;;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -228,7 +228,7 @@ h2{
     .home-about{
         background-image: url("../images/Background/IMG_2204.JPG");
        background-size:contain; 
-                padding-bottom: 20em; 
+                /* padding-bottom: 20em;  */
                 background-position-x: right;
                 background-repeat: no-repeat;
     }
@@ -238,8 +238,8 @@ h2{
       float: left;
     } 
     .home-about-textbox {
-        width: 50%;
-        padding: 5em;
+        width: 43%;
+        padding: 4em;
         outline-offset: -2.75em;
         margin-left: 1.5%;
         top: -5em;
@@ -319,7 +319,7 @@ padding-bottom: 1em;
 
 /*Call to Action CTA*/
 .cta{
-    background-color: rgb(231, 137, 160);;
+    background-color: #8FBC8F;;
 
     padding: 5em 0;
 }
@@ -361,7 +361,7 @@ footer{
     }
     input[type=submit] {
       position: sticky;
-      background: rgb(231, 137, 160);;
+      background: #8FBC8F;;
       color: #232323;
       margin-top: 2em;
       margin-right: 3em;
@@ -424,7 +424,7 @@ footer{
     .typewriter h1 {
       overflow: hidden; /* Ensures the content is not revealed until the animation */
       /* The typwriter cursor */
-      border-right: .1em solid rgb(231, 137, 160); /* The typwriter cursor */
+      border-right: .1em solid #8FBC8F; /* The typwriter cursor */
 
       white-space: nowrap; /* Keeps the content on a single line */
       margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -443,7 +443,7 @@ footer{
     /* The typewriter cursor effect */
     @keyframes blink-caret {
       from, to { border-color: transparent }
-      50% { border-color: rgb(231, 137, 160); }
+      50% { border-color: #8FBC8F; }
     } 
 
  
