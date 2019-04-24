@@ -19,6 +19,8 @@ nav ul {
   padding: 0;
   list-style: none;
 word-spacing: .5em;
+
+
 }
 nav li {
   display: inline-block;
@@ -34,6 +36,7 @@ nav a {
   /*gives us more room for the clickable link for mobile*/
   padding: 0.6em;
   color:#232323;
+
 }
 nav a:hover,
 nav a:focus {
@@ -320,14 +323,14 @@ padding-bottom: 1em;
 
 /*Call to Action CTA*/
 .cta{
-    background-color: #8FBC8F;;
+    background-color: white;
 
     padding: 5em 0;
 }
 
 /*FOOTER*/
 footer{
-    background: white;
+    background: #8FBC8F;
     color: #232323;
     padding: 1rem;
     font-size: 1rem;
@@ -350,14 +353,15 @@ footer{
  
 
 }
+
 #name, #email, textarea{
  padding: .5em;
  width:25em;
- border: #232323;
-    } 
+ border: solid black;
+} 
   textarea{
       height: 20%;
-      border: #232323;
+      border: solid black;
 
     }
     input[type=submit] {
@@ -411,16 +415,21 @@ footer{
     cursor: pointer;
     padding: 5px;
     /* border: #232323; */
-    border-radius: 10px;
-    font-size: 18px;
-    width: 9em;
+    /* border-radius: 3px; */
+    /* font-size: 18px; */
+    width: 5em;
     float: right;
-
+    color: white;
+    background: #232323;
+    
     }
     
  
-    #myBtn:hover {
-      background-color: #232323; /* Add a dark-grey background on hover */
+    #myBtn:hover,
+    #myBtn:focus {
+      background: #232323;
+      color: #8FBC8F;
+      ;
     }
     .typewriter h1 {
       overflow: hidden; /* Ensures the content is not revealed until the animation */
